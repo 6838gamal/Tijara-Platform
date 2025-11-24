@@ -1,0 +1,90 @@
+{
+    "categoriesPageDescription": {
+        "en": "Manage your product categories here.",
+        "ar": "أدر فئات منتجاتك من هنا."
+    },
+    "searchCategoriesPlaceholder": {
+        "en": "Search categories...",
+        "ar": "ابحث عن فئات..."
+    },
+    "addCategoryButton": {
+        "en": "Add Category",
+        "ar": "إضافة فئة"
+    },
+    "categoryName": {
+        "en": "Category Name",
+        "ar": "اسم الفئة"
+    },
+    "categoryDescription": {
+        "en": "Description",
+        "ar": "الوصف"
+    },
+    "categoryParent": {
+        "en": "Parent Category",
+        "ar": "الفئة الرئيسية"
+    },
+    "categoryProductCount": {
+        "en": "Products",
+        "ar": "المنتجات"
+    },
+    "deleteCategoryConfirmDescription": {
+        "en": "This action cannot be undone. This will permanently delete the category.",
+        "ar": "هذا الإجراء لا يمكن التراجع عنه. سيؤدي هذا إلى حذف الفئة نهائيًا."
+    },
+    "editCategoryTitle": {
+        "en": "Edit Category",
+        "ar": "تعديل الفئة"
+    },
+    "addCategoryTitle": {
+        "en": "Add New Category",
+        "ar": "إضافة فئة جديدة"
+    },
+    "editCategoryDescription": {
+        "en": "Update the category details here.",
+        "ar": "قم بتحديث تفاصيل الفئة هنا."
+    },
+    "addCategoryDescription": {
+        "en": "Enter the details for the new category.",
+        "ar": "أدخل تفاصيل الفئة الجديدة."
+    },
+    "categoryNameLabel": {
+        "en": "Category Name",
+        "ar": "اسم الفئة"
+    },
+    "categoryDescriptionLabel": {
+        "en": "Description",
+        "ar": "الوصف"
+    },
+    "categoryDescriptionPlaceholder": {
+        "en": "Describe the category...",
+        "ar": "صف الفئة..."
+    },
+    "categoryParentLabel": {
+        "en": "Parent Category",
+        "ar": "الفئة الرئيسية"
+    },
+    "categoryParentPlaceholder": {
+        "en": "Select a parent category (optional)",
+        "ar": "اختر فئة رئيسية (اختياري)"
+    },
+    "noParentCategory": {
+        "en": "None",
+        "ar": "لا يوجد"
+    },
+    "toastCategoryDeletedSuccess": {
+        "en": "Category deleted successfully.",
+        "ar": "تم حذف الفئة بنجاح."
+    },
+    "toastInvalidCategoryName": {
+        "en": "Please enter a category name.",
+        "ar": "يرجى إدخال اسم الفئة."
+    },
+    "toastCategoryUpdatedSuccess": {
+        "en": "Category updated successfully.",
+        "ar": "تم تحديث الفئة بنجاح."
+    },
+    "toastCategoryAddedSuccess": {
+        "en": "Category added successfully.",
+        "ar": "تمت إضافة الفئة بنجاح."
+    }
+}

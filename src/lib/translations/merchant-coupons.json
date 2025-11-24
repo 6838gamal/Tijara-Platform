@@ -1,0 +1,86 @@
+{
+    "couponsPageDescription": {
+        "en": "Create and manage discount coupons for your store.",
+        "ar": "أنشئ وأدر كوبونات الخصم لمتجرك."
+    },
+    "searchCouponsPlaceholder": {
+        "en": "Search by code...",
+        "ar": "البحث بالكود..."
+    },
+    "addCouponButton": {
+        "en": "Add Coupon",
+        "ar": "إضافة كوبون"
+    },
+    "couponCode": {
+        "en": "Code",
+        "ar": "الكود"
+    },
+    "couponType": {
+        "en": "Type",
+        "ar": "النوع"
+    },
+    "couponValue": {
+        "en": "Value",
+        "ar": "القيمة"
+    },
+    "couponExpiryDate": {
+        "en": "Expiry Date",
+        "ar": "تاريخ الانتهاء"
+    },
+    "deleteCouponConfirmDescription": {
+        "en": "This action cannot be undone. This will permanently delete the coupon.",
+        "ar": "هذا الإجراء لا يمكن التراجع عنه. سيؤدي هذا إلى حذف الكوبون نهائيًا."
+    },
+    "editCouponTitle": {
+        "en": "Edit Coupon",
+        "ar": "تعديل الكوبون"
+    },
+    "addCouponTitle": {
+        "en": "Add New Coupon",
+        "ar": "إضافة كوبون جديد"
+    },
+    "addCouponDescription": {
+        "en": "Enter the details for the new coupon.",
+        "ar": "أدخل تفاصيل الكوبون الجديد."
+    },
+    "couponCodeLabel": {
+        "en": "Coupon Code",
+        "ar": "كود الكوبون"
+    },
+    "couponTypeLabel": {
+        "en": "Discount Type",
+        "ar": "نوع الخصم"
+    },
+    "couponTypePlaceholder": {
+        "en": "Select a type",
+        "ar": "اختر النوع"
+    },
+    "couponTypePercentage": {
+        "en": "Percentage",
+        "ar": "نسبة مئوية"
+    },
+    "couponTypeFixed": {
+        "en": "Fixed Amount",
+        "ar": "مبلغ ثابت"
+    },
+    "couponValueLabel": {
+        "en": "Discount Value",
+        "ar": "قيمة الخصم"
+    },
+    "couponExpiryDateLabel": {
+        "en": "Expiry Date",
+        "ar": "تاريخ الانتهاء"
+    },
+    "toastCouponDeletedSuccess": {
+        "en": "Coupon deleted successfully.",
+        "ar": "تم حذف الكوبون بنجاح."
+    },
+    "toastCouponUpdatedSuccess": {
+        "en": "Coupon updated successfully.",
+        "ar": "تم تحديث الكوبون بنجاح."
+    },
+    "toastCouponAddedSuccess": {
+        "en": "Coupon added successfully.",
+        "ar": "تمت إضافة الكوبون بنجاح."
+    }
+}

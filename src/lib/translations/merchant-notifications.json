@@ -1,0 +1,66 @@
+{
+    "notificationsPageDescription": {
+        "en": "Compose and send notifications to your customers.",
+        "ar": "قم بصياغة وإرسال الإشعارات إلى عملائك."
+    },
+    "sendNewNotificationTitle": {
+        "en": "Send New Notification",
+        "ar": "إرسال إشعار جديد"
+    },
+    "sendNewNotificationDesc": {
+        "en": "Compose and send a notification to your store's customers.",
+        "ar": "قم بصياغة وإرسال إشعار لعملاء متجرك."
+    },
+    "notificationTitleLabel": {
+        "en": "Notification Title",
+        "ar": "عنوان الإشعار"
+    },
+    "notificationTitlePlaceholder": {
+        "en": "e.g., Exciting new arrivals!",
+        "ar": "مثال: وصول تشكيلة جديدة ومثيرة!"
+    },
+    "notificationMessageLabel": {
+        "en": "Notification Message",
+        "ar": "نص الإشعار"
+    },
+    "notificationMessagePlaceholder": {
+        "en": "Write your message here...",
+        "ar": "اكتب رسالتك هنا..."
+    },
+    "sendNotificationButton": {
+        "en": "Send Notification",
+        "ar": "إرسال الإشعار"
+    },
+    "sentNotificationsTitle": {
+        "en": "Sent Notifications",
+        "ar": "الإشعارات المرسلة"
+    },
+    "sentNotificationsDesc": {
+        "en": "A history of recently sent notifications.",
+        "ar": "سجل بالإشعارات التي تم إرسالها مؤخرًا."
+    },
+    "notificationDateSent": {
+        "en": "Date Sent",
+        "ar": "تاريخ الإرسال"
+    },
+    "deleteNotificationConfirmDescription": {
+        "en": "This action cannot be undone. This will permanently delete the notification from your history.",
+        "ar": "هذا الإجراء لا يمكن التراجع عنه. سيؤدي هذا إلى حذف الإشعار نهائيًا من سجلك."
+    },
+    "toastInvalidNotificationFields": {
+        "en": "Please fill in both the title and message fields.",
+        "ar": "يرجى ملء حقلي العنوان والرسالة."
+    },
+    "toastNotificationSentSuccess": {
+        "en": "Notification sent successfully",
+        "ar": "تم إرسال الإشعار بنجاح"
+    },
+    "toastNotificationSentDesc": {
+        "en": "Notification sent with title:",
+        "ar": "تم إرسال الإشعار بعنوان:"
+    },
+    "toastNotificationDeletedSuccess": {
+        "en": "Notification deleted.",
+        "ar": "تم حذف الإشعار."
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "ordersPageDescription": {
+        "en": "View and manage your customer orders here.",
+        "ar": "عرض وإدارة طلبات عملائك من هنا."
+    },
+    "searchOrdersPlaceholder": {
+        "en": "Search by order ID or customer...",
+        "ar": "ابحث برقم الطلب أو العميل..."
+    },
+    "filterByStatusPlaceholder": {
+        "en": "Filter by status",
+        "ar": "تصفية حسب الحالة"
+    },
+    "allStatuses": {
+        "en": "All Statuses",
+        "ar": "كل الحالات"
+    },
+    "statusPending": {
+        "en": "Pending",
+        "ar": "قيد التنفيذ"
+    },
+    "statusShipped": {
+        "en": "Shipped",
+        "ar": "تم الشحن"
+    },
+    "statusDelivered": {
+        "en": "Delivered",
+        "ar": "تم التسليم"
+    },
+    "statusCancelled": {
+        "en": "Cancelled",
+        "ar": "ملغي"
+    },
+    "orderId": {
+        "en": "Order ID",
+        "ar": "رقم الطلب"
+    },
+    "orderCustomer": {
+        "en": "Customer",
+        "ar": "العميل"
+    },
+    "orderDate": {
+        "en": "Date",
+        "ar": "التاريخ"
+    },
+    "orderTotal": {
+        "en": "Total",
+        "ar": "المجموع"
+    },
+    "actionViewDetails": {
+        "en": "View Details",
+        "ar": "عرض التفاصيل"
+    },
+    "actionUpdateStatus": {
+        "en": "Update Status",
+        "ar": "تحديث الحالة"
+    }
+}

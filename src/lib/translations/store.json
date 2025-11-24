@@ -1,0 +1,390 @@
+{
+    "welcome": {
+        "en": "Welcome to Aoun",
+        "ar": "مرحباً بك في عون"
+    },
+    "platformSubtitle": {
+        "en": "Your all-in-one e-commerce platform. Please select your role to continue.",
+        "ar": "منصتك للتجارة الإلكترونية المتكاملة. يرجى تحديد دورك للمتابعة."
+    },
+    "admin": {
+        "en": "Admin",
+        "ar": "مسؤول"
+    },
+    "adminDescription": {
+        "en": "Manage the platform and users",
+        "ar": "إدارة المنصة والمستخدمين"
+    },
+    "merchant": {
+        "en": "Merchant",
+        "ar": "تاجر"
+    },
+    "merchantDescription": {
+        "en": "Manage your store and products",
+        "ar": "إدارة متجرك ومنتجاتك"
+    },
+    "customer": {
+        "en": "Customer",
+        "ar": "زبون"
+    },
+    "customerDescription": {
+        "en": "Browse and shop for products",
+        "ar": "تصفح وتسوق المنتجات"
+    },
+    "home": {
+        "en": "Home",
+        "ar": "الرئيسية"
+    },
+    "newArrivals": {
+        "en": "New Arrivals",
+        "ar": "وصل حديثاً"
+    },
+    "aboutUs": {
+        "en": "About Us",
+        "ar": "عنا"
+    },
+    "shoppingCart": {
+        "en": "Shopping Cart",
+        "ar": "سلة التسوق"
+    },
+    "myAccount": {
+        "en": "My Account",
+        "ar": "حسابي"
+    },
+    "customerAccountDashboard": {
+        "en": "Customer Account",
+        "ar": "حساب العميل"
+    },
+    "myOrders": {
+        "en": "My Orders",
+        "ar": "طلباتي"
+    },
+    "myProfile": {
+        "en": "My Profile",
+        "ar": "ملفي الشخصي"
+    },
+    "myAddresses": {
+        "en": "My Addresses",
+        "ar": "عناويني"
+    },
+    "myAddressesDesc": {
+        "en": "Manage your saved shipping addresses.",
+        "ar": "أدر عناوين الشحن المحفوظة لديك."
+    },
+    "logOut": {
+        "en": "Log Out",
+        "ar": "تسجيل الخروج"
+    },
+    "backToStore": {
+        "en": "Back to Store",
+        "ar": "العودة للمتجر"
+    },
+    "welcomeBackCustomer": {
+        "en": "Welcome Back, Khalid!",
+        "ar": "أهلاً بعودتك، خالد!"
+    },
+    "latestOrder": {
+        "en": "Latest Order",
+        "ar": "آخر طلب"
+    },
+    "accountOverview": {
+        "en": "Account Overview",
+        "ar": "نظرة عامة على الحساب"
+    },
+    "accountOverviewDesc": {
+        "en": "Quick links to manage your account.",
+        "ar": "روابط سريعة لإدارة حسابك."
+    },
+    "profileInformation": {
+        "en": "Profile Information",
+        "ar": "معلومات الملف الشخصي"
+    },
+    "myOrdersDesc": {
+        "en": "View your order history and check the status of your purchases.",
+        "ar": "اطلع على سجل طلباتك وتحقق من حالة مشترياتك."
+    },
+    "viewOrder": {
+        "en": "View Order",
+        "ar": "عرض الطلب"
+    },
+    "myProfileDesc": {
+        "en": "Update your personal information and change your password.",
+        "ar": "حدّث معلوماتك الشخصية وغيّر كلمة المرور."
+    },
+    "firstName": {
+        "en": "First Name",
+        "ar": "الاسم الأول"
+    },
+    "lastName": {
+        "en": "Last Name",
+        "ar": "الاسم الأخير"
+    },
+    "currentPassword": {
+        "en": "Current Password",
+        "ar": "كلمة المرور الحالية"
+    },
+    "newPassword": {
+        "en": "New Password",
+        "ar": "كلمة المرور الجديدة"
+    },
+    "changePasswordButton": {
+        "en": "Change Password",
+        "ar": "تغيير كلمة المرور"
+    },
+    "toastProfileUpdatedSuccess": {
+        "en": "Profile Updated",
+        "ar": "تم تحديث الملف الشخصي"
+    },
+    "toastProfileUpdatedDesc": {
+        "en": "Your profile information has been saved successfully.",
+        "ar": "تم حفظ معلومات ملفك الشخصي بنجاح."
+    },
+    "heroTitle": {
+        "en": "Discover Your Style",
+        "ar": "اكتشف أسلوبك"
+    },
+    "heroSubtitle": {
+        "en": "Browse our curated collection of high-quality products.",
+        "ar": "تصفح مجموعتنا المختارة من المنتجات عالية الجودة."
+    },
+    "shopNowButton": {
+        "en": "Shop Now",
+        "ar": "تسوق الآن"
+    },
+    "featuredProductsTitle": {
+        "en": "Featured Products",
+        "ar": "منتجات مميزة"
+    },
+    "shopByCategoryTitle": {
+        "en": "Shop by Category",
+        "ar": "تسوق حسب الفئة"
+    },
+    "gadgets": {
+        "en": "Gadgets",
+        "ar": "أجهزة"
+    },
+    "apparel": {
+        "en": "Apparel",
+        "ar": "ملابس"
+    },
+    "home goods": {
+        "en": "Home Goods",
+        "ar": "مستلزمات منزلية"
+    },
+    "accessories": {
+        "en": "Accessories",
+        "ar": "إكسسوارات"
+    },
+    "platformSlogan": {
+        "en": "Your all-in-one e-commerce solution.",
+        "ar": "حل التجارة الإلكترونية المتكامل الخاص بك."
+    },
+    "shopTitle": {
+        "en": "Shop",
+        "ar": "تسوق"
+    },
+    "bestSellers": {
+        "en": "Best Sellers",
+        "ar": "الأكثر مبيعًا"
+    },
+    "customerServiceTitle": {
+        "en": "Customer Service",
+        "ar": "خدمة العملاء"
+    },
+    "contactUs": {
+        "en": "Contact Us",
+        "ar": "اتصل بنا"
+    },
+    "faq": {
+        "en": "FAQ",
+        "ar": "الأسئلة الشائعة"
+    },
+    "trackOrder": {
+        "en": "Track Order",
+        "ar": "تتبع الطلب"
+    },
+    "legalTitle": {
+        "en": "Legal",
+        "ar": "قانوني"
+    },
+    "privacyPolicy": {
+        "en": "Privacy Policy",
+        "ar": "سياسة الخصوصية"
+    },
+    "termsOfService": {
+        "en": "Terms of Service",
+        "ar": "شروط الخدمة"
+    },
+    "copyright": {
+        "en": "© 2025 Aoun Platform. All rights reserved.",
+        "ar": "© 2025 منصة عون. جميع الحقوق محفوظة."
+    },
+    "reviews": {
+        "en": "reviews",
+        "ar": "تقييمات"
+    },
+    "addToCart": {
+        "en": "Add to Cart",
+        "ar": "أضف إلى السلة"
+    },
+    "youMightAlsoLike": {
+        "en": "You Might Also Like",
+        "ar": "قد يعجبك ايضا"
+    },
+    "addAddressButton": {
+        "en": "Add Address",
+        "ar": "إضافة عنوان"
+    },
+    "toastAddressDeleted": {
+        "en": "Address deleted successfully.",
+        "ar": "تم حذف العنوان بنجاح."
+    },
+    "toastDefaultAddressUpdated": {
+        "en": "Default address updated.",
+        "ar": "تم تحديث العنوان الافتراضي."
+    },
+    "toastAddressUpdated": {
+        "en": "Address updated successfully.",
+        "ar": "تم تحديث العنوان بنجاح."
+    },
+    "toastAddressAdded": {
+        "en": "Address added successfully.",
+        "ar": "تمت إضافة العنوان بنجاح."
+    },
+    "toastInvalidAddressFields": {
+        "en": "Please fill in all address fields.",
+        "ar": "يرجى ملء جميع حقول العنوان."
+    },
+    "actionSetAsDefault": {
+        "en": "Set as default",
+        "ar": "تعيين كافتراضي"
+    },
+    "deleteAddressConfirmDescription": {
+        "en": "This action cannot be undone. This will permanently delete this address.",
+        "ar": "هذا الإجراء لا يمكن التراجع عنه. سيؤدي هذا إلى حذف هذا العنوان نهائيًا."
+    },
+    "defaultAddressBadge": {
+        "en": "Default",
+        "ar": "الافتراضي"
+    },
+    "editAddressTitle": {
+        "en": "Edit Address",
+        "ar": "تعديل العنوان"
+    },
+    "addAddressTitle": {
+        "en": "Add New Address",
+        "ar": "إضافة عنوان جديد"
+    },
+    "editAddressDescription": {
+        "en": "Update your address details here.",
+        "ar": "قم بتحديث تفاصيل عنوانك هنا."
+    },
+    "addAddressDescription": {
+        "en": "Enter the details for your new address.",
+        "ar": "أدخل تفاصيل عنوانك الجديد."
+    },
+    "addressLabelLabel": {
+        "en": "Label",
+        "ar": "التسمية"
+    },
+    "addressLabelPlaceholder": {
+        "en": "e.g., Home, Work",
+        "ar": "مثال: المنزل، العمل"
+    },
+    "addressRecipientLabel": {
+        "en": "Recipient Name",
+        "ar": "اسم المستلم"
+    },
+    "addressStreetLabel": {
+        "en": "Street Address",
+        "ar": "عنوان الشارع"
+    },
+    "addressCityLabel": {
+        "en": "City",
+        "ar": "المدينة"
+    },
+    "addressCountryLabel": {
+        "en": "Country",
+        "ar": "الدولة"
+    },
+    "customerLoginTitle": {
+        "en": "Customer Login",
+        "ar": "تسجيل دخول العميل"
+    },
+    "customerLoginDescription": {
+        "en": "Enter your details to access your account.",
+        "ar": "أدخل بياناتك للوصول إلى حسابك."
+    },
+    "signUp": {
+        "en": "Sign up",
+        "ar": "إنشاء حساب"
+    },
+    "signUpButton": {
+        "en": "Create Account",
+        "ar": "إنشاء حساب"
+    },
+    "customerSignUpTitle": {
+        "en": "Create Account",
+        "ar": "إنشاء حساب جديد"
+    },
+    "customerSignUpDescription": {
+        "en": "Join us to start shopping.",
+        "ar": "انضم إلينا لبدء التسوق."
+    },
+    "alreadyHaveAccount": {
+        "en": "Already have an account?",
+        "ar": "لديك حساب بالفعل؟"
+    },
+    "customerName": {
+        "en": "Full Name",
+        "ar": "الاسم الكامل"
+    },
+    "customerEmail": {
+        "en": "Email Address",
+        "ar": "البريد الإلكتروني"
+    },
+    "fullNamePlaceholder": {
+        "en": "Enter your full name",
+        "ar": "أدخل اسمك الكامل"
+    },
+    "allProducts": {
+        "en": "All Products",
+        "ar": "جميع المنتجات"
+    },
+    "noProductsInCategory": {
+        "en": "No products found in this category.",
+        "ar": "لم يتم العثور على منتجات في هذه الفئة."
+    },
+    "productNotFound": {
+        "en": "Product not found",
+        "ar": "المنتج غير موجود"
+    },
+    "cartIsEmpty": {
+        "en": "Your cart is empty.",
+        "ar": "سلة التسوق الخاصة بك فارغة."
+    },
+    "continueShopping": {
+        "en": "Continue Shopping",
+        "ar": "متابعة التسوق"
+    },
+    "orderSummary": {
+        "en": "Order Summary",
+        "ar": "ملخص الطلب"
+    },
+    "subtotal": {
+        "en": "Subtotal",
+        "ar": "المجموع الفرعي"
+    },
+    "shipping": {
+        "en": "Shipping",
+        "ar": "الشحن"
+    },
+    "total": {
+        "en": "Total",
+        "ar": "المجموع"
+    },
+    "proceedToCheckout": {
+        "en": "Proceed to Checkout",
+        "ar": "الانتقال إلى الدفع"
+    }
+}

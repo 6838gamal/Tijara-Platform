@@ -1,0 +1,105 @@
+
+{
+    "adminLogin": {
+        "en": "Admin Login",
+        "ar": "دخول المسؤول"
+    },
+    "adminDashboard": {
+        "en": "Admin Dashboard",
+        "ar": "لوحة تحكم المدير"
+    },
+    "userManagement": {
+        "en": "User Management",
+        "ar": "إدارة المستخدمين"
+    },
+    "storeManagement": {
+        "en": "Store Management",
+        "ar": "إدارة المتاجر"
+    },
+    "subscriptions": {
+        "en": "Subscriptions",
+        "ar": "الاشتراكات"
+    },
+    "systemSettings": {
+        "en": "System Settings",
+        "ar": "إعدادات النظام"
+    },
+    "technicalSupport": {
+        "en": "Technical Support",
+        "ar": "الدعم الفني"
+    },
+    "totalUsers": {
+        "en": "Total Users",
+        "ar": "إجمالي المستخدمين"
+    },
+    "totalUsersDesc": {
+        "en": "+120 this month",
+        "ar": "+120 هذا الشهر"
+    },
+    "activeStores": {
+        "en": "Active Stores",
+        "ar": "المتاجر النشطة"
+    },
+    "activeStoresDesc": {
+        "en": "+12 this month",
+        "ar": "+12 هذا الشهر"
+    },
+    "platformHealth": {
+        "en": "Platform Health",
+        "ar": "صحة المنصة"
+    },
+    "platformHealthDesc": {
+        "en": "All systems operational",
+        "ar": "جميع الأنظمة تعمل"
+    },
+    "recentActivity": {
+        "en": "Recent Activity",
+        "ar": "النشاط الأخير"
+    },
+    "recentActivityDescription": {
+        "en": "An overview of recent platform-wide events.",
+        "ar": "نظرة عامة على الأحداث الأخيرة على مستوى المنصة."
+    },
+    "recentActivityPlaceholder": {
+        "en": "Recent activity feed will be displayed here.",
+        "ar": "سيتم عرض موجز النشاط الأخير هنا."
+    },
+    "adminLoginDescription": {
+        "en": "Enter your credentials to access the admin dashboard.",
+        "ar": "أدخل بيانات الاعتماد الخاصة بك للوصول إلى لوحة تحكم المسؤول."
+    },
+    "noAdminAccount": {
+        "en": "Need help?",
+        "ar": "هل تحتاج إلى مساعدة؟"
+    },
+    "contactSupport": {
+        "en": "Contact support",
+        "ar": "اتصل بالدعم"
+    },
+    "revenueOverview": {
+        "en": "Revenue Overview",
+        "ar": "نظرة عامة على الإيرادات"
+    },
+    "revenueOverviewDesc": {
+        "en": "Monthly revenue for the last 6 months.",
+        "ar": "الإيرادات الشهرية لآخر 6 أشهر."
+    },
+    "userRoleDistribution": {
+        "en": "User Role Distribution",
+        "ar": "توزيع أدوار المستخدمين"
+    },
+    "userRoleDistributionDesc": {
+        "en": "Distribution of users by their roles.",
+        "ar": "توزيع المستخدمين حسب أدوارهم."
+    },
+    "userGrowth": {
+        "en": "User Growth",
+        "ar": "نمو المستخدمين"
+    },
+    "userGrowthDesc": {
+        "en": "New users per month for the last 6 months.",
+        "ar": "المستخدمون الجدد شهريًا لآخر 6 أشهر."
+    }
+}
+
+    

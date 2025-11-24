@@ -1,0 +1,78 @@
+{
+    "aiServicesPageDescription": {
+        "en": "Activate and configure AI-powered services for your store.",
+        "ar": "تفعيل وإعداد الخدمات المدعومة بالذكاء الاصطناعي لمتجرك."
+    },
+    "aiProductNameGenerator": {
+        "en": "Product Description Generator",
+        "ar": "مولّد وصف المنتجات"
+    },
+    "aiProductNameGeneratorDesc": {
+        "en": "Automatically generate engaging marketing copy for your products.",
+        "ar": "أنشئ نصوصًا تسويقية جذابة لمنتجاتك تلقائيًا."
+    },
+    "aiCustomerInquiryResponder": {
+        "en": "Customer Inquiry Responder",
+        "ar": "الرد على استفسارات العملاء"
+    },
+    "aiCustomerInquiryResponderDesc": {
+        "en": "Set up automated responses for frequently asked questions.",
+        "ar": "قم بإعداد ردود آلية على الأسئلة الشائعة."
+    },
+    "aiImageEnhancer": {
+        "en": "Product Image Enhancer",
+        "ar": "محسّن صور المنتجات"
+    },
+    "aiImageEnhancerDesc": {
+        "en": "Automatically improve image quality and remove backgrounds.",
+        "ar": "تحسين جودة الصور وإزالة الخلفيات تلقائيًا."
+    },
+    "toastServiceUpdated": {
+        "en": "Service Updated",
+        "ar": "تم تحديث الخدمة"
+    },
+    "newStatusLabel": {
+        "en": "New status",
+        "ar": "الحالة الجديدة"
+    },
+    "settingsButton": {
+        "en": "Settings",
+        "ar": "الإعدادات"
+    },
+    "serviceSettingsTitle": {
+        "en": "Service Settings",
+        "ar": "إعدادات الخدمة"
+    },
+    "serviceSettingsDescription": {
+        "en": "Configure the settings for this service.",
+        "ar": "قم بتكوين إعدادات هذه الخدمة."
+    },
+    "writingToneLabel": {
+        "en": "Writing Tone",
+        "ar": "نبرة الكتابة"
+    },
+    "writingTonePlaceholder": {
+        "en": "Select a tone",
+        "ar": "اختر نبرة"
+    },
+    "writingToneProfessional": {
+        "en": "Professional",
+        "ar": "احترافي"
+    },
+    "writingToneCreative": {
+        "en": "Creative",
+        "ar": "إبداعي"
+    },
+    "writingToneFriendly": {
+        "en": "Friendly",
+        "ar": "ودي"
+    },
+    "noExternalSettings": {
+        "en": "This service is internal and requires no external settings.",
+        "ar": "هذه الخدمة داخلية ولا تتطلب إعدادات خارجية."
+    },
+    "toastSettingsSaved": {
+        "en": "Settings saved successfully.",
+        "ar": "تم حفظ الإعدادات بنجاح."
+    }
+}

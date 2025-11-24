@@ -1,0 +1,78 @@
+{
+    "paymentsPageDescription": {
+        "en": "Configure payment and shipping methods.",
+        "ar": "قم بتكوين طرق الدفع والشحن."
+    },
+    "paymentsAndShippingDesc": {
+        "en": "Configure payment gateways and shipping options for your store.",
+        "ar": "قم بتكوين بوابات الدفع وخيارات الشحن لمتجرك."
+    },
+    "paymentMethodsTab": {
+        "en": "Payment Methods",
+        "ar": "طرق الدفع"
+    },
+    "shippingSettingsTab": {
+        "en": "Shipping Settings",
+        "ar": "إعدادات الشحن"
+    },
+    "paymentGatewaysDesc": {
+        "en": "Connect payment gateways to accept payments from customers.",
+        "ar": "اربط بوابات الدفع لقبول المدفوعات من العملاء."
+    },
+    "enableStripe": {
+        "en": "Enable Stripe",
+        "ar": "تفعيل Stripe"
+    },
+    "stripePublishableKey": {
+        "en": "Publishable Key",
+        "ar": "المفتاح القابل للنشر"
+    },
+    "stripeSecretKey": {
+        "en": "Secret Key",
+        "ar": "المفتاح السري"
+    },
+    "enablePayPal": {
+        "en": "Enable PayPal",
+        "ar": "تفعيل PayPal"
+    },
+    "paypalClientId": {
+        "en": "Client ID",
+        "ar": "معرف العميل"
+    },
+    "shippingSettingsDesc": {
+        "en": "Set up how you ship orders to your customers.",
+        "ar": "قم بإعداد كيفية شحن الطلبات إلى عملائك."
+    },
+    "shippingZonesTitle": {
+        "en": "Shipping Zones",
+        "ar": "مناطق الشحن"
+    },
+    "domesticShippingZone": {
+        "en": "Domestic",
+        "ar": "محلي"
+    },
+    "domesticShippingZoneDesc": {
+        "en": "Shipping to your base country.",
+        "ar": "الشحن إلى بلدك الأساسي."
+    },
+    "standardShipping": {
+        "en": "Standard Shipping",
+        "ar": "شحن قياسي"
+    },
+    "expressShipping": {
+        "en": "Express Shipping",
+        "ar": "شحن سريع"
+    },
+    "internationalShippingZone": {
+        "en": "International",
+        "ar": "دولي"
+    },
+    "internationalShippingZoneDesc": {
+        "en": "Shipping to the rest of the world.",
+        "ar": "الشحن إلى بقية أنحاء العالم."
+    },
+    "addShippingZoneButton": {
+        "en": "Add Shipping Zone",
+        "ar": "إضافة منطقة شحن"
+    }
+}

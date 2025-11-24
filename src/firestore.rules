@@ -1,0 +1,92 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper function to check if the user is signed in.
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    // Rules for the 'users' collection
+    match /users/{userId} {
+      allow read, write: if isSignedIn();
+    }
+    match /users {
+        allow list: if isSignedIn();
+    }
+
+    // Rules for the 'stores' collection
+    match /stores/{storeId} {
+      // Allow public read for store details, but restrict write.
+      allow read: if true;
+      allow write: if isSignedIn();
+    }
+    match /stores {
+      allow list: if isSignedIn();
+    }
+    
+    // Explicit rules for all store subcollections
+    match /stores/{storeId}/products/{productId} {
+      allow read: if true;
+      allow write: if isSignedIn();
+    }
+    match /stores/{storeId}/products {
+      allow list: if true;
+    }
+    match /stores/{storeId}/categories/{categoryId} {
+      allow read: if true;
+      allow write: if isSignedIn();
+    }
+     match /stores/{storeId}/categories {
+      allow list: if true;
+    }
+    match /stores/{storeId}/brands/{brandId} {
+      allow read: if true;
+      allow write: if isSignedIn();
+    }
+     match /stores/{storeId}/brands {
+      allow list: if true;
+    }
+    match /stores/{storeId}/orders/{orderId} {
+      allow read, write: if isSignedIn();
+    }
+     match /stores/{storeId}/orders {
+      allow list: if isSignedIn();
+    }
+    match /stores/{storeId}/customers/{customerId} {
+      allow read, write: if isSignedIn();
+    }
+     match /stores/{storeId}/customers {
+      allow list: if isSignedIn();
+    }
+    match /stores/{storeId}/coupons/{couponId} {
+      allow read, write: if isSignedIn();
+    }
+     match /stores/{storeId}/coupons {
+      allow list: if isSignedIn();
+    }
+    match /stores/{storeId}/notifications/{notificationId} {
+      allow read, write: if isSignedIn();
+    }
+     match /stores/{storeId}/notifications {
+      allow list: if isSignedIn();
+    }
+
+    // Rules for the 'plans' collection
+    match /plans/{planId} {
+      allow read, write: if isSignedIn();
+    }
+    match /plans {
+      allow list: if isSignedIn();
+    }
+
+    // Rules for the 'coupons' collection
+    match /coupons/{couponId} {
+      allow read, write: if isSignedIn();
+    }
+    match /coupons {
+        allow list: if isSignedIn();
+    }
+  }
+}

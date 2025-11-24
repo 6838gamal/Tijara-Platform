@@ -1,0 +1,50 @@
+{
+    "storeSettingsPageDescription": {
+        "en": "Manage your store's branding, policies, and other settings.",
+        "ar": "أدر العلامة التجارية لمتجرك وسياساته والإعدادات الأخرى."
+    },
+    "toastSettingsSavedDesc": {
+        "en": "Your settings for have been saved.",
+        "ar": "تم حفظ إعداداتك لـ"
+    },
+    "settingsGeneralTab": {
+        "en": "General",
+        "ar": "عام"
+    },
+    "settingsLogoTab": {
+        "en": "Logo",
+        "ar": "الشعار"
+    },
+    "settingsSocialTab": {
+        "en": "Social Media",
+        "ar": "التواصل الاجتماعي"
+    },
+    "settingsGeneralTabDesc": {
+        "en": "Update your store's basic information.",
+        "ar": "تحديث المعلومات الأساسية لمتجرك."
+    },
+    "settingsStoreNameLabel": {
+        "en": "Store Name",
+        "ar": "اسم المتجر"
+    },
+    "settingsStoreDescriptionLabel": {
+        "en": "Store Description",
+        "ar": "وصف المتجر"
+    },
+    "settingsStoreDescriptionPlaceholder": {
+        "en": "Tell your customers about your store...",
+        "ar": "أخبر عملاءك عن متجرك..."
+    },
+    "settingsLogoTabDesc": {
+        "en": "Upload or link to your store's logo.",
+        "ar": "تحميل أو ربط شعار متجرك."
+    },
+    "settingsLogoUrlLabel": {
+        "en": "Logo URL",
+        "ar": "رابط الشعار"
+    },
+    "settingsSocialTabDesc": {
+        "en": "Link your social media accounts.",
+        "ar": "ربط حسابات التواصل الاجتماعي الخاصة بك."
+    }
+}

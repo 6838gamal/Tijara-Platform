@@ -1,0 +1,131 @@
+
+{
+    "dashboard": {
+        "en": "Dashboard",
+        "ar": "لوحة التحكم"
+    },
+    "payments": {
+        "en": "Payments",
+        "ar": "المدفوعات"
+    },
+    "notifications": {
+        "en": "Notifications",
+        "ar": "الإشعارات"
+    },
+    "coupons": {
+        "en": "Coupons",
+        "ar": "الكوبونات"
+    },
+    "aiServices": {
+        "en": "AI Services",
+        "ar": "خدمات الذكاء الاصطناعي"
+    },
+    "totalRevenue": {
+        "en": "Total Revenue",
+        "ar": "إجمالي الإيرادات"
+    },
+    "totalRevenueDesc": {
+        "en": "+20.1% from last month",
+        "ar": "+20.1% عن الشهر الماضي"
+    },
+    "loginButton": {
+        "en": "Login",
+        "ar": "تسجيل الدخول"
+    },
+    "loginDescription": {
+        "en": "Click login to continue with mock data.",
+        "ar": "انقر فوق تسجيل الدخول للمتابعة ببيانات وهمية."
+    },
+    "contentComingSoon": {
+        "en": "Page content will be added soon.",
+        "ar": "سيتم إضافة محتوى الصفحة قريباً."
+    },
+    "productActions": {
+        "en": "Actions",
+        "ar": "الإجراءات"
+    },
+    "actionsMenu": {
+        "en": "Actions menu",
+        "ar": "قائمة الإجراءات"
+    },
+    "actionEdit": {
+        "en": "Edit",
+        "ar": "تعديل"
+    },
+    "actionDelete": {
+        "en": "Delete",
+        "ar": "حذف"
+    },
+    "deleteConfirmTitle": {
+        "en": "Are you absolutely sure?",
+        "ar": "هل أنت متأكد تماما؟"
+    },
+    "cancelButton": {
+        "en": "Cancel",
+        "ar": "إلغاء"
+    },
+    "confirmDeleteButton": {
+        "en": "Confirm Delete",
+        "ar": "تأكيد الحذف"
+    },
+    "saveChangesButton": {
+        "en": "Save Changes",
+        "ar": "حفظ التغييرات"
+    },
+    "toastErrorTitle": {
+        "en": "Error",
+        "ar": "خطأ"
+    },
+    "toastInvalidFields": {
+        "en": "Please fill in all required fields correctly.",
+        "ar": "يرجى ملء جميع الحقول المطلوبة بشكل صحيح."
+    },
+    "statusActive": {
+        "en": "Active",
+        "ar": "نشط"
+    },
+    "statusInactive": {
+        "en": "Inactive",
+        "ar": "غير نشط"
+    },
+    "loginTitle": {
+        "en": "Login",
+        "ar": "تسجيل الدخول"
+    },
+    "emailLabel": {
+        "en": "Email",
+        "ar": "البريد الإلكتروني"
+    },
+    "emailPlaceholder": {
+        "en": "Your email address",
+        "ar": "بريدك الإلكتروني"
+    },
+    "passwordLabel": {
+        "en": "Password",
+        "ar": "كلمة المرور"
+    },
+    "passwordPlaceholder": {
+        "en": "Your password",
+        "ar": "كلمة المرور"
+    },
+    "forgotPassword": {
+        "en": "Forgot password?",
+        "ar": "نسيت كلمة المرور؟"
+    },
+    "loading": {
+        "en": "Loading...",
+        "ar": "جار التحميل..."
+    },
+    "emailInUseError": {
+        "en": "This email is already in use. Please try logging in.",
+        "ar": "هذا البريد الإلكتروني مستخدم بالفعل. يرجى محاولة تسجيل الدخول."
+    },
+    "invalidCredentialsError": {
+        "en": "Login failed. The email or password you entered is incorrect.",
+        "ar": "فشل تسجيل الدخول. البريد الإلكتروني أو كلمة المرور التي أدخلتها غير صحيحة."
+    },
+    "unexpectedError": {
+        "en": "An unexpected error occurred. Please try again.",
+        "ar": "حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى."
+    }
+}

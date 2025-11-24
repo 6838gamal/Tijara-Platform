@@ -1,0 +1,74 @@
+{
+    "brandsPageDescription": {
+        "en": "Manage your product brands here.",
+        "ar": "أدر علاماتك التجارية من هنا."
+    },
+    "searchBrandsPlaceholder": {
+        "en": "Search brands...",
+        "ar": "ابحث عن علامة تجارية..."
+    },
+    "addBrandButton": {
+        "en": "Add Brand",
+        "ar": "إضافة علامة تجارية"
+    },
+    "brandName": {
+        "en": "Brand Name",
+        "ar": "اسم العلامة التجارية"
+    },
+    "brandDescription": {
+        "en": "Description",
+        "ar": "الوصف"
+    },
+    "brandProductCount": {
+        "en": "Products",
+        "ar": "المنتجات"
+    },
+    "deleteBrandConfirmDescription": {
+        "en": "This action cannot be undone. This will permanently delete the brand.",
+        "ar": "هذا الإجراء لا يمكن التراجع عنه. سيؤدي هذا إلى حذف العلامة التجارية نهائيًا."
+    },
+    "editBrandTitle": {
+        "en": "Edit Brand",
+        "ar": "تعديل العلامة التجارية"
+    },
+    "addBrandTitle": {
+        "en": "Add New Brand",
+        "ar": "إضافة علامة تجارية جديدة"
+    },
+    "editBrandDescription": {
+        "en": "Update the brand details here.",
+        "ar": "قم بتحديث تفاصيل العلامة التجارية هنا."
+    },
+    "addBrandDescription": {
+        "en": "Enter the details for the new brand.",
+        "ar": "أدخل تفاصيل العلامة التجارية الجديدة."
+    },
+    "brandNameLabel": {
+        "en": "Brand Name",
+        "ar": "اسم العلامة التجارية"
+    },
+    "brandDescriptionLabel": {
+        "en": "Description",
+        "ar": "الوصف"
+    },
+    "brandDescriptionPlaceholder": {
+        "en": "Describe the brand...",
+        "ar": "صف العلامة التجارية..."
+    },
+    "toastBrandDeletedSuccess": {
+        "en": "Brand deleted successfully.",
+        "ar": "تم حذف العلامة التجارية بنجاح."
+    },
+    "toastInvalidBrandName": {
+        "en": "Please enter a brand name.",
+        "ar": "يرجى إدخال اسم العلامة التجارية."
+    },
+    "toastBrandUpdatedSuccess": {
+        "en": "Brand updated successfully.",
+        "ar": "تم تحديث العلامة التجارية بنجاح."
+    },
+    "toastBrandAddedSuccess": {
+        "en": "Brand added successfully.",
+        "ar": "تمت إضافة العلامة التجارية بنجاح."
+    }
+}

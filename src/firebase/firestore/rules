@@ -1,0 +1,109 @@
+
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // --- Helper Functions ---
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function getUserData(userId) {
+      // userId is now an email, which is the document ID
+      return get(/databases/$(database)/documents/users/$(userId)).data;
+    }
+    
+    function isUserRole(role) {
+      // Check if the user is signed in before trying to access their data.
+      // CRITICAL FIX: Pass the user's email to getUserData, not their UID.
+      return isSignedIn() && getUserData(request.auth.token.email).role == role;
+    }
+
+    function isAdmin() {
+      return isUserRole('Admin');
+    }
+    
+    function isOwner(userId) {
+        // The requesting user's email must match the document's ID (which is also an email)
+        return isSignedIn() && request.auth.token.email == userId;
+    }
+    
+    function isStoreOwner(storeId) {
+        let storeData = get(/databases/$(database)/documents/stores/$(storeId)).data;
+        // The ownerId in the store document is an email
+        return isSignedIn() && request.auth.token.email == storeData.ownerId;
+    }
+    
+    function isMerchant() {
+        return isUserRole('Merchant');
+    }
+
+    // --- User Rules ---
+    match /users/{userId} {
+      // The {userId} wildcard is now an email address.
+      // Admins can get any user. Merchants can get any user to check roles. Users can only get their own document.
+      allow get: if isAdmin() || isOwner(userId) || isMerchant();
+      // Only Admins or the user themselves can update a profile.
+      allow update: if isAdmin() || isOwner(userId);
+      // Only Admins can create or delete users.
+      allow create, delete: if isAdmin();
+      // list is intentionally omitted to prevent enumeration of all users.
+    }
+    
+    // --- Admin-Only Platform Rules (Plans, Coupons) ---
+    match /plans/{planId} {
+      allow get, list, create, update, delete: if isAdmin();
+    }
+    
+    match /coupons/{couponId} {
+      allow get, list, create, update, delete: if isAdmin();
+    }
+
+    // --- Store and Sub-collection Rules ---
+    
+    match /stores/{storeId} {
+      allow get: if isAdmin() || isStoreOwner(storeId);
+      allow list: if isAdmin() || isMerchant(); // Merchants can list stores to find theirs
+      allow create, delete: if isAdmin();
+      // Admins can update anything. Merchants can only update their own store and cannot change the ownerId.
+      allow update: if isAdmin() || (isStoreOwner(storeId) && request.resource.data.ownerId == resource.data.ownerId);
+    }
+    
+    // --- Products ---
+    match /stores/{storeId}/products/{productId} {
+      allow get, list, create, update, delete: if isAdmin() || isStoreOwner(storeId);
+    }
+
+    // --- Categories ---
+    match /stores/{storeId}/categories/{categoryId} {
+      allow get, list, create, update, delete: if isAdmin() || isStoreOwner(storeId);
+    }
+
+    // --- Brands ---
+    match /stores/{storeId}/brands/{brandId} {
+      allow get, list, create, update, delete: if isAdmin() || isStoreOwner(storeId);
+    }
+    
+    // --- Orders ---
+    match /stores/{storeId}/orders/{orderId} {
+      allow get, list, create, update, delete: if isAdmin() || isStoreOwner(storeId);
+    }
+
+    // --- Customers ---
+    match /stores/{storeId}/customers/{customerId} {
+      allow get, list, create, update, delete: if isAdmin() || isStoreOwner(storeId);
+    }
+
+    // --- Merchant Coupons ---
+    match /stores/{storeId}/coupons/{couponId} {
+      allow get, list, create, update, delete: if isAdmin() || isStoreOwner(storeId);
+    }
+    
+    // --- Merchant Notifications ---
+    match /stores/{storeId}/notifications/{notificationId} {
+      allow get, list, create, update, delete: if isAdmin() || isStoreOwner(storeId);
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+    "reportsTotalSales": {
+        "en": "Total Sales",
+        "ar": "إجمالي المبيعات"
+    },
+    "reportsTotalSalesDesc": {
+        "en": "+10% from last month",
+        "ar": "+10% عن الشهر الماضي"
+    },
+    "reportsAverageOrderValue": {
+        "en": "Avg. Order Value",
+        "ar": "متوسط قيمة الطلب"
+    },
+    "reportsAverageOrderValueDesc": {
+        "en": "+5% from last month",
+        "ar": "+5% عن الشهر الماضي"
+    },
+    "reportsTotalOrders": {
+        "en": "Total Orders",
+        "ar": "إجمالي الطلبات"
+    },
+    "reportsTotalOrdersDesc": {
+        "en": "+12% from last month",
+        "ar": "+12% عن الشهر الماضي"
+    },
+    "reportsNewCustomers": {
+        "en": "New Customers",
+        "ar": "عملاء جدد"
+    },
+    "reportsNewCustomersDesc": {
+        "en": "+25 this month",
+        "ar": "+25 هذا الشهر"
+    },
+    "reportsSalesOverview": {
+        "en": "Sales Overview",
+        "ar": "نظرة عامة على المبيعات"
+    },
+    "reportsSalesOverviewDesc": {
+        "en": "An overview of your sales performance.",
+        "ar": "نظرة عامة على أداء مبيعاتك."
+    },
+    "reportsTopSellingProducts": {
+        "en": "Top-Selling Products",
+        "ar": "المنتجات الأكثر مبيعاً"
+    },
+    "reportsTopSellingProductsDesc": {
+        "en": "Your best-performing products by revenue.",
+        "ar": "أفضل منتجاتك أداءً من حيث الإيرادات."
+    },
+    "reportsSalesCount": {
+        "en": "Sales (Units)",
+        "ar": "المبيعات (وحدات)"
+    },
+    "reportsRevenue": {
+        "en": "Revenue",
+        "ar": "الإيرادات"
+    }
+}

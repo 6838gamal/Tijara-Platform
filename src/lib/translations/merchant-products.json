@@ -1,0 +1,174 @@
+{
+    "productsPageDescription": {
+        "en": "Manage your store products here.",
+        "ar": "أدر منتجات متجرك من هنا."
+    },
+    "searchProductsPlaceholder": {
+        "en": "Search products...",
+        "ar": "ابحث عن منتجات..."
+    },
+    "addProductButton": {
+        "en": "Add Product",
+        "ar": "إضافة منتج"
+    },
+    "productImage": {
+        "en": "Image",
+        "ar": "الصورة"
+    },
+    "productName": {
+        "en": "Name",
+        "ar": "الاسم"
+    },
+    "productStatus": {
+        "en": "Status",
+        "ar": "الحالة"
+    },
+    "productPrice": {
+        "en": "Price",
+        "ar": "السعر"
+    },
+    "productStock": {
+        "en": "Stock",
+        "ar": "الكمية"
+    },
+     "productSKU": {
+        "en": "SKU",
+        "ar": "رمز التخزين"
+    },
+    "statusPublished": {
+        "en": "Published",
+        "ar": "منشور"
+    },
+    "statusDraft": {
+        "en": "Draft",
+        "ar": "مسودة"
+    },
+    "deleteProductConfirmDescription": {
+        "en": "This action cannot be undone. This will permanently delete the product.",
+        "ar": "هذا الإجراء لا يمكن التراجع عنه. سيؤدي هذا إلى حذف المنتج نهائيًا."
+    },
+    "editProductTitle": {
+        "en": "Edit Product",
+        "ar": "تعديل المنتج"
+    },
+    "addProductTitle": {
+        "en": "Add New Product",
+        "ar": "إضافة منتج جديد"
+    },
+    "editProductDescription": {
+        "en": "Update the product details here.",
+        "ar": "قم بتحديث تفاصيل المنتج هنا."
+    },
+    "addProductDescription": {
+        "en": "Enter the details for the new product.",
+        "ar": "أدخل تفاصيل المنتج الجديد."
+    },
+    "productNameLabel": {
+        "en": "Product Name",
+        "ar": "اسم المنتج"
+    },
+    "productDescriptionLabel": {
+        "en": "Description",
+        "ar": "الوصف"
+    },
+    "productDescriptionPlaceholder": {
+        "en": "Describe your product...",
+        "ar": "صف منتجك..."
+    },
+    "productPriceLabel": {
+        "en": "Price",
+        "ar": "السعر"
+    },
+    "productStockLabel": {
+        "en": "Quantity",
+        "ar": "الكمية"
+    },
+    "productCategoryLabel": {
+        "en": "Category",
+        "ar": "الفئة"
+    },
+    "productCategoryPlaceholder": {
+        "en": "Select a category",
+        "ar": "اختر فئة"
+    },
+    "productStatusLabel": {
+        "en": "Status",
+        "ar": "الحالة"
+    },
+    "productStatusPlaceholder": {
+        "en": "Select a status",
+        "ar": "اختر حالة"
+    },
+    "toastProductDeletedSuccess": {
+        "en": "Product deleted successfully.",
+        "ar": "تم حذف المنتج بنجاح."
+    },
+    "toastProductUpdatedSuccess": {
+        "en": "Product updated successfully.",
+        "ar": "تم تحديث المنتج بنجاح."
+    },
+    "toastProductAddedSuccess": {
+        "en": "Product added successfully.",
+        "ar": "تمت إضافة المنتج بنجاح."
+    },
+    "basicInfoSection": {
+        "en": "Basic Information",
+        "ar": "المعلومات الأساسية"
+    },
+    "pricingSection": {
+        "en": "Pricing",
+        "ar": "التسعير"
+    },
+    "inventorySection": {
+        "en": "Inventory",
+        "ar": "المخزون"
+    },
+    "shippingSection": {
+        "en": "Shipping",
+        "ar": "الشحن"
+    },
+    "organizationSection": {
+        "en": "Organization",
+        "ar": "التنظيم"
+    },
+    "productCostLabel": {
+        "en": "Cost per item",
+        "ar": "تكلفة المنتج"
+    },
+    "productDiscountPriceLabel": {
+        "en": "Discount Price",
+        "ar": "سعر الخصم"
+    },
+    "productDiscountEndDateLabel": {
+        "en": "Discount End Date",
+        "ar": "نهاية التخفيض"
+    },
+    "productSKULabel": {
+        "en": "SKU (Stock Keeping Unit)",
+        "ar": "رمز التخزين (SKU)"
+    },
+    "productMaxQuantityLabel": {
+        "en": "Max quantity per customer",
+        "ar": "أقصى كمية لكل عميل"
+    },
+    "unlimitedPlaceholder": {
+        "en": "Unlimited",
+        "ar": "غير محدود"
+    },
+    "productRequiresShippingLabel": {
+        "en": "This product requires shipping",
+        "ar": "هذا المنتج يتطلب شحن"
+    },
+    "productWeightLabel": {
+        "en": "Weight (kg)",
+        "ar": "الوزن (كجم)"
+    },
+    "productOptionsLabel": {
+        "en": "Options (e.g., Size, Color)",
+        "ar": "خيارات (مثال: الحجم، اللون)"
+    },
+    "productOptionsPlaceholder": {
+        "en": "e.g., Size: S, M, L",
+        "ar": "مثال: الحجم: صغير، متوسط، كبير"
+    }
+}

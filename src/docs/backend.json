@@ -1,0 +1,288 @@
+
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "Represents a user of the platform.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The user's full name."
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "The user's email address."
+        },
+        "role": {
+          "type": "string",
+          "enum": ["Admin", "Merchant", "Customer"],
+          "description": "The role of the user."
+        },
+        "status": {
+          "type": "string",
+          "enum": ["Active", "Inactive", "Suspended"],
+          "description": "The status of the user's account."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The date and time the user was created."
+        }
+      },
+      "required": ["name", "email", "role", "status", "createdAt"]
+    },
+    "Store": {
+      "title": "Store",
+      "description": "Represents a merchant's store on the platform.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the store."
+        },
+        "ownerId": {
+          "type": "string",
+          "description": "The UID of the user who owns the store."
+        },
+        "status": {
+          "type": "string",
+          "enum": ["Active", "Inactive", "Suspended"],
+          "description": "The current status of the store."
+        },
+        "plan": {
+          "type": "string",
+          "enum": ["Basic", "Premium", "Enterprise"],
+          "description": "The subscription plan of the store."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The date and time the store was created."
+        },
+        "image": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the store's logo or image."
+        }
+      },
+      "required": ["name", "ownerId", "status", "plan", "createdAt", "image"]
+    },
+    "Plan": {
+      "title": "Plan",
+      "description": "Represents a subscription plan for merchants.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the subscription plan."
+        },
+        "price": {
+          "type": "number",
+          "description": "The monthly price of the plan."
+        },
+        "features": {
+          "type": "string",
+          "description": "A comma-separated string of plan features."
+        },
+        "status": {
+          "type": "string",
+          "enum": ["Active", "Archived"],
+          "description": "The status of the plan."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The date and time the plan was created."
+        }
+      },
+      "required": ["name", "price", "features", "status", "createdAt"]
+    },
+    "Coupon": {
+      "title": "Coupon",
+      "description": "Represents a discount coupon for stores.",
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string",
+          "description": "The unique code for the coupon."
+        },
+        "type": {
+          "type": "string",
+          "enum": ["percentage", "fixed"],
+          "description": "The type of discount (percentage or fixed amount)."
+        },
+        "value": {
+          "type": "number",
+          "description": "The value of the discount."
+        },
+        "status": {
+          "type": "string",
+          "enum": ["Active", "Inactive", "Expired"],
+          "description": "The current status of the coupon."
+        },
+        "expiryDate": {
+          "type": "string",
+          "format": "date",
+          "description": "The expiration date of the coupon."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The date and time the coupon was created."
+        }
+      },
+      "required": ["code", "type", "value", "status", "expiryDate", "createdAt"]
+    },
+    "Product": {
+      "title": "Product",
+      "description": "A product in a merchant's store.",
+      "type": "object",
+      "properties": {
+        "name": {"type": "string"},
+        "description": {"type": "string"},
+        "image": {"type": "string", "description": "Can be a URL to an image or a hex color code."},
+        "price": {"type": "number"},
+        "cost": {"type": "number"},
+        "discountPrice": {"type": "number"},
+        "discountEndDate": {"type": "string", "format": "date-time"},
+        "stock": {"type": "number"},
+        "sku": {"type": "string"},
+        "weight": {"type": "number"},
+        "requiresShipping": {"type": "boolean"},
+        "maxQuantityPerCustomer": {"type": "number"},
+        "category": {"type": "string"},
+        "brand": {"type": "string"},
+        "options": {"type": "string"},
+        "status": {"type": "string", "enum": ["Published", "Draft"]},
+        "isFeatured": {"type": "boolean", "description": "Whether the product is featured on the homepage."}
+      }
+    },
+    "Category": {
+      "title": "Category",
+      "description": "A product category for a merchant's store.",
+      "type": "object",
+      "properties": {
+        "name": {"type": "string"},
+        "description": {"type": "string"},
+        "parentId": {"type": "string"}
+      }
+    },
+    "Brand": {
+      "title": "Brand",
+      "description": "A product brand for a merchant's store.",
+      "type": "object",
+      "properties": {
+        "name": {"type": "string"},
+        "description": {"type": "string"}
+      }
+    },
+    "Order": {
+      "title": "Order",
+      "description": "A customer order from a merchant's store.",
+      "type": "object",
+      "properties": {
+        "customerName": {"type": "string"},
+        "total": {"type": "number"},
+        "status": {"type": "string", "enum": ["Pending", "Shipped", "Delivered", "Cancelled"]},
+        "createdAt": {"type": "string", "format": "date-time"}
+      }
+    },
+    "Customer": {
+      "title": "Customer",
+      "description": "A customer of a merchant's store.",
+      "type": "object",
+      "properties": {
+        "name": {"type": "string"},
+        "email": {"type": "string", "format": "email"},
+        "totalOrders": {"type": "number"},
+        "totalSpent": {"type": "number"}
+      }
+    },
+    "MerchantCoupon": {
+      "title": "MerchantCoupon",
+      "description": "A discount coupon created by a merchant for their store.",
+      "type": "object",
+      "properties": {
+        "code": {"type": "string"},
+        "type": {"type": "string", "enum": ["percentage", "fixed"]},
+        "value": {"type": "number"},
+        "expiryDate": {"type": "string", "format": "date"}
+      }
+    },
+    "MerchantNotification": {
+      "title": "MerchantNotification",
+      "description": "A notification sent by a merchant to their customers.",
+      "type": "object",
+      "properties": {
+        "title": {"type": "string"},
+        "message": {"type": "string"},
+        "sentAt": {"type": "string", "format": "date-time"}
+      }
+    }
+  },
+  "auth": {
+    "providers": ["password"],
+    "customClaims": {
+      "role": {
+        "type": "string",
+        "enum": ["Admin", "Merchant", "Customer"]
+      }
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": {
+        "$ref": "#/entities/User"
+      },
+      "description": "Stores user profile information."
+    },
+    "/stores/{storeId}": {
+      "schema": {
+        "$ref": "#/entities/Store"
+      },
+      "description": "Stores general information about a merchant's store."
+    },
+    "/plans/{planId}": {
+      "schema": {
+        "$ref": "#/entities/Plan"
+      },
+      "description": "Stores subscription plan information for admins."
+    },
+    "/coupons/{couponId}": {
+      "schema": {
+        "$ref": "#/entities/Coupon"
+      },
+      "description": "Stores platform-wide discount coupons for admins."
+    },
+    "/stores/{storeId}/products/{productId}": {
+      "schema": { "$ref": "#/entities/Product" },
+      "description": "Stores products for a specific merchant."
+    },
+    "/stores/{storeId}/categories/{categoryId}": {
+      "schema": { "$ref": "#/entities/Category" },
+      "description": "Stores product categories for a specific merchant."
+    },
+    "/stores/{storeId}/brands/{brandId}": {
+      "schema": { "$ref": "#/entities/Brand" },
+      "description": "Stores product brands for a specific merchant."
+    },
+    "/stores/{storeId}/orders/{orderId}": {
+      "schema": { "$ref": "#/entities/Order" },
+      "description": "Stores customer orders for a specific merchant."
+    },
+    "/stores/{storeId}/customers/{customerId}": {
+      "schema": { "$ref": "#/entities/Customer" },
+      "description": "Stores customer information for a specific merchant."
+    },
+    "/stores/{storeId}/coupons/{couponId}": {
+      "schema": { "$ref": "#/entities/MerchantCoupon" },
+      "description": "Stores coupons created by a specific merchant."
+    },
+    "/stores/{storeId}/notifications/{notificationId}": {
+      "schema": { "$ref": "#/entities/MerchantNotification" },
+      "description": "Stores notifications sent by a specific merchant."
+    }
+  }
+}

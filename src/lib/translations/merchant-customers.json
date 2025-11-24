@@ -1,0 +1,78 @@
+{
+    "customersPageDescription": {
+        "en": "View and manage your customers here.",
+        "ar": "عرض وإدارة عملائك من هنا."
+    },
+    "searchCustomersPlaceholder": {
+        "en": "Search customers...",
+        "ar": "ابحث عن عملاء..."
+    },
+    "addCustomerButton": {
+        "en": "Add Customer",
+        "ar": "إضافة عميل"
+    },
+    "customerName": {
+        "en": "Name",
+        "ar": "الاسم"
+    },
+    "customerEmail": {
+        "en": "Email",
+        "ar": "البريد الإلكتروني"
+    },
+    "customerTotalOrders": {
+        "en": "Total Orders",
+        "ar": "إجمالي الطلبات"
+    },
+    "customerTotalSpent": {
+        "en": "Total Spent",
+        "ar": "إجمالي الإنفاق"
+    },
+    "customerJoinedDate": {
+        "en": "Joined Date",
+        "ar": "تاريخ الانضمام"
+    },
+    "deleteCustomerConfirmDescription": {
+        "en": "This action cannot be undone. This will permanently delete the customer.",
+        "ar": "هذا الإجراء لا يمكن التراجع عنه. سيؤدي هذا إلى حذف العميل نهائيًا."
+    },
+    "editCustomerTitle": {
+        "en": "Edit Customer",
+        "ar": "تعديل العميل"
+    },
+    "addCustomerTitle": {
+        "en": "Add New Customer",
+        "ar": "إضافة عميل جديد"
+    },
+    "editCustomerDescription": {
+        "en": "Update the customer details here.",
+        "ar": "قم بتحديث تفاصيل العميل هنا."
+    },
+    "addCustomerDescription": {
+        "en": "Enter the details for the new customer.",
+        "ar": "أدخل تفاصيل العميل الجديد."
+    },
+    "customerNameLabel": {
+        "en": "Customer Name",
+        "ar": "اسم العميل"
+    },
+    "customerEmailLabel": {
+        "en": "Email",
+        "ar": "البريد الإلكتروني"
+    },
+    "toastCustomerDeletedSuccess": {
+        "en": "Customer deleted successfully.",
+        "ar": "تم حذف العميل بنجاح."
+    },
+    "toastInvalidCustomerFields": {
+        "en": "Please enter a valid name and email.",
+        "ar": "يرجى إدخال اسم وبريد إلكتروني صالحين."
+    },
+    "toastCustomerUpdatedSuccess": {
+        "en": "Customer updated successfully.",
+        "ar": "تم تحديث العميل بنجاح."
+    },
+    "toastCustomerAddedSuccess": {
+        "en": "Customer added successfully.",
+        "ar": "تمت إضافة العميل بنجاح."
+    }
+}

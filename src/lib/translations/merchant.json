@@ -1,0 +1,67 @@
+
+{
+    "merchantLogin": {
+        "en": "Merchant Login",
+        "ar": "دخول التاجر"
+    },
+    "merchantLoginDescription": {
+        "en": "Enter your credentials to access your store dashboard.",
+        "ar": "أدخل بيانات الاعتماد الخاصة بك للوصول إلى لوحة تحكم متجرك."
+    },
+    "noAccount": {
+        "en": "Don't have an account?",
+        "ar": "ليس لديك حساب؟"
+    },
+    "createStore": {
+        "en": "Sign up",
+        "ar": "اشتراك"
+    },
+    "merchantDashboard": {
+        "en": "Merchant Dashboard",
+        "ar": "لوحة تحكم التاجر"
+    },
+    "yourStore": {
+        "en": "Your Store",
+        "ar": "متجرك"
+    },
+    "products": {
+        "en": "Products",
+        "ar": "المنتجات"
+    },
+    "categories": {
+        "en": "Categories",
+        "ar": "الفئات"
+    },
+    "brands": {
+        "en": "Brands",
+        "ar": "العلامات التجارية"
+    },
+    "orders": {
+        "en": "Orders",
+        "ar": "الطلبات"
+    },
+    "customers": {
+        "en": "Customers",
+        "ar": "العملاء"
+    },
+    "reportsAndStats": {
+        "en": "Reports & Stats",
+        "ar": "التقارير والإحصائيات"
+    },
+    "storeSettings": {
+        "en": "Store Settings",
+        "ar": "إعدادات المتجر"
+    },
+    "paymentsAndShipping": {
+        "en": "Payments & Shipping",
+        "ar": "المدفوعات والشحن"
+    },
+    "paginationPrevious": {
+        "en": "Previous",
+        "ar": "السابق"
+    },
+    "paginationNext": {
+        "en": "Next",
+        "ar": "التالي"
+    }
+}
