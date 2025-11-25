@@ -17,8 +17,8 @@ export default function InstalledAppsPage() {
       <CardContent>
         <div className="flex flex-col items-center justify-center text-center text-muted-foreground h-64">
             <Download className="h-16 w-16 mb-4 text-primary" />
-            <p className="text-lg">عرض وإدارة التطبيقات المثبتة قيد التطوير.</p>
-            <p className="text-sm">ستتمكن هنا من رؤية جميع التطبيقات التي قمت بتثبيتها على متجرك وإدارة إعداداتها.</p>
+            <p className="text-lg">{t('installedAppsDevTitle')}</p>
+            <p className="text-sm">{t('installedAppsDevDesc')}</p>
         </div>
       </CardContent>
     </Card>

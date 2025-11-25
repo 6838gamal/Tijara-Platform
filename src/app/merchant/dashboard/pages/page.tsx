@@ -17,8 +17,8 @@ export default function PagesPage() {
       <CardContent>
         <div className="flex flex-col items-center justify-center text-center text-muted-foreground h-64">
             <File className="h-16 w-16 mb-4 text-primary" />
-            <p className="text-lg">إدارة الصفحات التعريفية قيد التطوير.</p>
-            <p className="text-sm">هنا ستتمكن من إنشاء وتعديل صفحات مثل "من نحن" و "شروط الخدمة" و "سياسة الإرجاع".</p>
+            <p className="text-lg">{t('pagesDevTitle')}</p>
+            <p className="text-sm">{t('pagesDevDesc')}</p>
         </div>
       </CardContent>
     </Card>

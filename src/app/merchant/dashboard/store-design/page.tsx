@@ -26,8 +26,8 @@ export default function StoreDesignPage() {
 
   const handleSave = () => {
     toast({
-      title: "تم حفظ التصميم",
-      description: "تم تطبيق تغييرات التصميم على واجهة متجرك."
+      title: t('designSavedToastTitle'),
+      description: t('designSavedToastDesc')
     });
   };
 
@@ -36,11 +36,11 @@ export default function StoreDesignPage() {
       <div className="md:col-span-1 space-y-6">
         <Card>
           <CardHeader>
-            <CardTitle className="flex items-center gap-2"><Palette className="h-5 w-5" /> تخصيص الألوان</CardTitle>
+            <CardTitle className="flex items-center gap-2"><Palette className="h-5 w-5" /> {t('colorCustomization')}</CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="space-y-2">
-              <Label htmlFor="primary-color">اللون الأساسي</Label>
+              <Label htmlFor="primary-color">{t('primaryColor')}</Label>
               <div className="flex items-center gap-2">
                 <Input
                   id="primary-color"
@@ -56,7 +56,7 @@ export default function StoreDesignPage() {
               </div>
             </div>
             <div className="space-y-2">
-              <Label htmlFor="background-color">لون الخلفية</Label>
+              <Label htmlFor="background-color">{t('backgroundColor')}</Label>
                <div className="flex items-center gap-2">
                  <Input
                     id="background-color"
@@ -75,14 +75,14 @@ export default function StoreDesignPage() {
         </Card>
         <Card>
           <CardHeader>
-            <CardTitle className="flex items-center gap-2"><Type className="h-5 w-5" /> تخصيص الخطوط</CardTitle>
+            <CardTitle className="flex items-center gap-2"><Type className="h-5 w-5" /> {t('fontCustomization')}</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="space-y-2">
-              <Label htmlFor="font-select">خط المتجر</Label>
+              <Label htmlFor="font-select">{t('storeFont')}</Label>
               <Select value={font} onValueChange={setFont}>
                 <SelectTrigger id="font-select">
-                  <SelectValue placeholder="اختر خطًا" />
+                  <SelectValue placeholder={t('selectFontPlaceholder')} />
                 </SelectTrigger>
                 <SelectContent>
                   {fonts.map((f) => (
@@ -95,28 +95,28 @@ export default function StoreDesignPage() {
             </div>
           </CardContent>
         </Card>
-        <Button onClick={handleSave} className="w-full">حفظ التغييرات</Button>
+        <Button onClick={handleSave} className="w-full">{t('saveChangesButton')}</Button>
       </div>
 
       <div className="md:col-span-2">
         <Card>
           <CardHeader>
-            <CardTitle>معاينة حية للمتجر</CardTitle>
+            <CardTitle>{t('livePreview')}</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="w-full h-[600px] border rounded-lg overflow-hidden bg-background">
                 <div style={{ "--preview-primary": primaryColor, "--preview-bg": backgroundColor, fontFamily: font } as React.CSSProperties}>
                     <div className="h-16 flex items-center justify-between px-6" style={{ backgroundColor: "var(--preview-bg)", borderBottom: '1px solid #e2e8f0' }}>
-                        <div className="font-bold text-lg" style={{ color: "var(--preview-primary)" }}>متجري</div>
+                        <div className="font-bold text-lg" style={{ color: "var(--preview-primary)" }}>{t('myStore')}</div>
                         <div className="flex items-center gap-4 text-sm">
-                            <span>الرئيسية</span>
-                            <span>المنتجات</span>
-                            <span>تواصل معنا</span>
+                            <span>{t('home')}</span>
+                            <span>{t('products')}</span>
+                            <span>{t('contactUs')}</span>
                         </div>
                     </div>
                     <div className="p-8" style={{ backgroundColor: "var(--preview-bg)"}}>
-                        <h1 className="text-4xl font-bold mb-4" style={{ color: "hsl(var(--foreground))" }}>مرحبًا في متجري</h1>
-                        <p className="mb-8" style={{ color: "hsl(var(--muted-foreground))" }}>هنا ستجد أفضل المنتجات بأفضل الأسعار.</p>
+                        <h1 className="text-4xl font-bold mb-4" style={{ color: "hsl(var(--foreground))" }}>{t('welcomeToMyStore')}</h1>
+                        <p className="mb-8" style={{ color: "hsl(var(--muted-foreground))" }}>{t('previewSubtitle')}</p>
                         <div className="grid grid-cols-2 gap-6">
                             {[1, 2].map(i => (
                                 <div key={i} className="border rounded-lg">
@@ -128,7 +128,7 @@ export default function StoreDesignPage() {
                                 </div>
                             ))}
                         </div>
-                         <Button className="mt-8 w-1/2" style={{ backgroundColor: "var(--preview-primary)", color: 'white' }}>تسوق الآن</Button>
+                         <Button className="mt-8 w-1/2" style={{ backgroundColor: "var(--preview-primary)", color: 'white' }}>{t('shopNowButton')}</Button>
                     </div>
                 </div>
             </div>

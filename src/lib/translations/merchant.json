@@ -66,7 +66,7 @@
     },
     "content": {
         "en": "Content",
-        "ar": "مضمون"
+        "ar": "المحتوى"
     },
     "marketplace": {
         "en": "Marketplace",
@@ -127,5 +127,281 @@
     "installedApps": {
         "en": "Installed Apps",
         "ar": "التطبيقات المثبتة"
+    },
+    "contentDevTitle": {
+        "en": "Content Management is Under Development",
+        "ar": "إدارة المحتوى قيد التطوير"
+    },
+    "contentDevDesc": {
+        "en": "Here you will be able to manage the content of your store's pages like 'About Us' and 'Privacy Policy'.",
+        "ar": "هنا ستتمكن من إدارة محتوى صفحات متجرك مثل \"من نحن\" و \"سياسة الخصوصية\"."
+    },
+    "marketplaceDevTitle": {
+        "en": "Marketplace is Under Development",
+        "ar": "منصة السوق قيد التطوير"
+    },
+    "marketplaceDevDesc": {
+        "en": "Here you will be able to list your products on the platform's public marketplace to reach new customers.",
+        "ar": "ستتمكن هنا من عرض منتجاتك في السوق العام للمنصة والوصول إلى عملاء جدد."
+    },
+    "affiliateDevTitle": {
+        "en": "Affiliate Marketing System is Under Development",
+        "ar": "نظام التسويق بالعمولة قيد التطوير"
+    },
+    "affiliateDevDesc": {
+        "en": "Here you will be able to create and manage an affiliate marketing program for your store.",
+        "ar": "ستتمكن هنا من إنشاء وإدارة برنامج التسويق بالعمولة الخاص بمتجرك."
+    },
+    "loyaltyDevTitle": {
+        "en": "Customer Loyalty System is Under Development",
+        "ar": "نظام ولاء العملاء قيد التطوير"
+    },
+    "loyaltyDevDesc": {
+        "en": "Here you will be able to create a points and rewards program for your loyal customers.",
+        "ar": "ستتمكن هنا من إنشاء برنامج نقاط ومكافآت لعملائك الأوفياء."
+    },
+    "offersDevTitle": {
+        "en": "Special Offers Management is Under Development",
+        "ar": "إدارة العروض الخاصة قيد التطوير"
+    },
+    "offersDevDesc": {
+        "en": "Here you will be able to create offers like 'Buy One, Get One Free' or discounts on product bundles.",
+        "ar": "ستتمكن هنا من إنشاء عروض مثل \"اشترِ واحدًا واحصل على الآخر مجانًا\" أو خصومات على مجموعات المنتجات."
+    },
+    "marketingDevTitle": {
+        "en": "Marketing Tools are Under Development",
+        "ar": "أدوات التسويق قيد التطوير"
+    },
+    "marketingDevDesc": {
+        "en": "Here you will find tools to manage your marketing campaigns via email and social media.",
+        "ar": "ستجد هنا أدوات لإدارة حملاتك التسويقية عبر البريد الإلكتروني ووسائل التواصل الاجتماعي."
+    },
+    "abandonedCartsDevTitle": {
+        "en": "Abandoned Cart Recovery is Under Development",
+        "ar": "ميزة استعادة السلات المتروكة قيد التطوير"
+    },
+    "abandonedCartsDevDesc": {
+        "en": "Here you will be able to view carts that were not completed and send reminder messages to customers.",
+        "ar": "ستتمكن هنا من عرض السلات التي لم يكمل أصحابها عملية الشراء وإرسال رسائل تذكير لهم."
+    },
+    "reviewsDevTitle": {
+        "en": "Questions & Reviews Management is Under Development",
+        "ar": "إدارة الأسئلة والتقييمات قيد التطوير"
+    },
+    "reviewsDevDesc": {
+        "en": "Here you will be able to review and respond to customer reviews and view questions related to your products.",
+        "ar": "ستتمكن هنا من مراجعة تقييمات العملاء والرد عليها وعرض الأسئلة المتعلقة بمنتجاتك."
+    },
+    "pagesDevTitle": {
+        "en": "Informational Pages Management is Under Development",
+        "ar": "إدارة الصفحات التعريفية قيد التطوير"
+    },
+    "pagesDevDesc": {
+        "en": "Here you will be able to create and edit pages like 'About Us', 'Terms of Service', and 'Return Policy'.",
+        "ar": "هنا ستتمكن من إنشاء وتعديل صفحات مثل \"من نحن\" و \"شروط الخدمة\" و \"سياسة الإرجاع\"."
+    },
+    "blogDevTitle": {
+        "en": "Blog Management is Under Development",
+        "ar": "إدارة المدونة قيد التطوير"
+    },
+    "blogDevDesc": {
+        "en": "Here you will be able to write and publish articles to increase customer engagement and improve SEO.",
+        "ar": "هنا ستتمكن من كتابة ونشر مقالات لزيادة تفاعل العملاء وتحسين محركات البحث."
+    },
+    "govServicesDevTitle": {
+        "en": "Integration with Government Services is Under Development",
+        "ar": "الربط مع الخدمات الحكومية قيد التطوير"
+    },
+    "govServicesDevDesc": {
+        "en": "Here you will be able to link your store with government services such as taxes and business licenses.",
+        "ar": "ستتمكن هنا من ربط متجرك بالخدمات الحكومية مثل الضرائب والتراخيص التجارية."
+    },
+    "appStoreDevTitle": {
+        "en": "App Store is Under Development",
+        "ar": "متجر التطبيقات قيد التطوير"
+    },
+    "appStoreDevDesc": {
+        "en": "Here you will be able to browse and purchase additional apps to extend your store's functionality.",
+        "ar": "ستتمكن هنا من تصفح وشراء تطبيقات إضافية لتوسيع وظائف متجرك."
+    },
+    "installedAppsDevTitle": {
+        "en": "Installed Apps Management is Under Development",
+        "ar": "عرض وإدارة التطبيقات المثبتة قيد التطوير"
+    },
+    "installedAppsDevDesc": {
+        "en": "Here you will be able to see all the apps you have installed in your store and manage their settings.",
+        "ar": "ستتمكن هنا من رؤية جميع التطبيقات التي قمت بتثبيتها على متجرك وإدارة إعداداتها."
+    },
+    "storePackageDesc": {
+        "en": "Choose the plan that suits your business size. You can upgrade or downgrade at any time.",
+        "ar": "اختر الخطة التي تناسب حجم أعمالك. يمكنك الترقية أو التخفيض في أي وقت."
+    },
+    "basicPlan": {
+        "en": "Basic",
+        "ar": "الأساسية"
+    },
+    "premiumPlan": {
+        "en": "Premium",
+        "ar": "المميزة"
+    },
+    "businessPlan": {
+        "en": "Business",
+        "ar": "الأعمال"
+    },
+    "monthly": {
+        "en": "monthly",
+        "ar": "شهريًا"
+    },
+    "planFeature50Products": {
+        "en": "50 Products",
+        "ar": "50 منتج"
+    },
+    "planFeatureBasicAnalytics": {
+        "en": "Basic Analytics",
+        "ar": "تحليلات أساسية"
+    },
+    "planFeatureEmailSupport": {
+        "en": "Email Support",
+        "ar": "دعم عبر البريد الإلكتروني"
+    },
+    "planFeatureUnlimitedProducts": {
+        "en": "Unlimited Products",
+        "ar": "منتجات غير محدودة"
+    },
+    "planFeatureAdvancedAnalytics": {
+        "en": "Advanced Analytics",
+        "ar": "تحليلات متقدمة"
+    },
+    "planFeatureAiSupport": {
+        "en": "AI-powered Support",
+        "ar": "دعم ذكي بالذكاء الاصطناعي"
+    },
+    "planFeatureMarketingTools": {
+        "en": "Integrated Marketing Tools",
+        "ar": "أدوات تسويق متكاملة"
+    },
+    "planFeatureAllPremium": {
+        "en": "All features from Premium",
+        "ar": "كل ميزات الباقة المميزة"
+    },
+    "planFeatureDedicatedManager": {
+        "en": "Dedicated Account Manager",
+        "ar": "مدير حساب مخصص"
+    },
+    "planFeatureApiAccess": {
+        "en": "API Access",
+        "ar": "واجهة برمجة تطبيقات (API)"
+    },
+    "planFeature247Support": {
+        "en": "24/7 Instant Support",
+        "ar": "دعم فوري على مدار الساعة"
+    },
+    "currentPlan": {
+        "en": "Your Current Plan",
+        "ar": "باقتك الحالية"
+    },
+    "upgradeToPlan": {
+        "en": "Upgrade to this Plan",
+        "ar": "الترقية لهذه الباقة"
+    },
+    "colorCustomization": {
+        "en": "Color Customization",
+        "ar": "تخصيص الألوان"
+    },
+    "primaryColor": {
+        "en": "Primary Color",
+        "ar": "اللون الأساسي"
+    },
+    "backgroundColor": {
+        "en": "Background Color",
+        "ar": "لون الخلفية"
+    },
+    "fontCustomization": {
+        "en": "Font Customization",
+        "ar": "تخصيص الخطوط"
+    },
+    "storeFont": {
+        "en": "Store Font",
+        "ar": "خط المتجر"
+    },
+    "selectFontPlaceholder": {
+        "en": "Select a font",
+        "ar": "اختر خطًا"
+    },
+    "livePreview": {
+        "en": "Live Preview",
+        "ar": "معاينة حية"
+    },
+    "myStore": {
+        "en": "My Store",
+        "ar": "متجري"
+    },
+    "welcomeToMyStore": {
+        "en": "Welcome to My Store",
+        "ar": "مرحبًا في متجري"
+    },
+    "previewSubtitle": {
+        "en": "Here you will find the best products at the best prices.",
+        "ar": "هنا ستجد أفضل المنتجات بأفضل الأسعار."
+    },
+    "designSavedToastTitle": {
+        "en": "Design Saved",
+        "ar": "تم حفظ التصميم"
+    },
+    "designSavedToastDesc": {
+        "en": "Your design changes have been applied to your storefront.",
+        "ar": "تم تطبيق تغييرات التصميم على واجهة متجرك."
+    },
+    "currentBalance": {
+        "en": "Current Balance",
+        "ar": "الرصيد الحالي"
+    },
+    "currentBalanceDesc": {
+        "en": "Balance available for withdrawal or use on the platform.",
+        "ar": "الرصيد المتاح للسحب أو لاستخدامه في خدمات المنصة."
+    },
+    "requestWithdrawal": {
+        "en": "Request Withdrawal",
+        "ar": "طلب سحب الرصيد"
+    },
+    "transactionHistory": {
+        "en": "Transaction History",
+        "ar": "سجل المعاملات"
+    },
+    "transactionHistoryDesc": {
+        "en": "A log of the latest transactions in your wallet.",
+        "ar": "عرض لآخر المعاملات في محفظتك."
+    },
+    "transactionType": {
+        "en": "Type",
+        "ar": "النوع"
+    },
+    "transactionAmount": {
+        "en": "Amount",
+        "ar": "المبلغ"
+    },
+    "deposit": {
+        "en": "Deposit",
+        "ar": "إيداع"
+    },
+    "withdrawal": {
+        "en": "Withdrawal",
+        "ar": "سحب"
+    },
+    "fee": {
+        "en": "Fee",
+        "ar": "رسوم"
+    },
+    "depositFromOrder": {
+        "en": "Deposit from sales of order",
+        "ar": "إيداع من مبيعات الطلب"
+    },
+    "withdrawalToBank": {
+        "en": "Withdrawal to bank account",
+        "ar": "سحب إلى حساب بنكي"
+    },
+    "feeForPremium": {
+        "en": "Premium package subscription fee",
+        "ar": "رسوم اشتراك الباقة المميزة"
     }
 }

@@ -17,8 +17,8 @@ export default function AffiliatePage() {
       <CardContent>
          <div className="flex flex-col items-center justify-center text-center text-muted-foreground h-64">
             <Share2 className="h-16 w-16 mb-4 text-primary" />
-            <p className="text-lg">نظام التسويق بالعمولة قيد التطوير.</p>
-            <p className="text-sm">ستتمكن هنا من إنشاء وإدارة برنامج التسويق بالعمولة الخاص بمتجرك.</p>
+            <p className="text-lg">{t('affiliateDevTitle')}</p>
+            <p className="text-sm">{t('affiliateDevDesc')}</p>
         </div>
       </CardContent>
     </Card>

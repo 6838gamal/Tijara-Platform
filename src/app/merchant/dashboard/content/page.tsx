@@ -17,8 +17,8 @@ export default function ContentPage() {
       <CardContent>
         <div className="flex flex-col items-center justify-center text-center text-muted-foreground h-64">
             <FileText className="h-16 w-16 mb-4 text-primary" />
-            <p className="text-lg">إدارة المحتوى قيد التطوير.</p>
-            <p className="text-sm">هنا ستتمكن من إدارة محتوى صفحات متجرك مثل "من نحن" و "سياسة الخصوصية".</p>
+            <p className="text-lg">{t('contentDevTitle')}</p>
+            <p className="text-sm">{t('contentDevDesc')}</p>
         </div>
       </CardContent>
     </Card>

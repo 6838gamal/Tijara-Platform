@@ -17,8 +17,8 @@ export default function BlogPage() {
       <CardContent>
         <div className="flex flex-col items-center justify-center text-center text-muted-foreground h-64">
             <Newspaper className="h-16 w-16 mb-4 text-primary" />
-            <p className="text-lg">إدارة المدونة قيد التطوير.</p>
-            <p className="text-sm">هنا ستتمكن من كتابة ونشر مقالات لزيادة تفاعل العملاء وتحسين محركات البحث.</p>
+            <p className="text-lg">{t('blogDevTitle')}</p>
+            <p className="text-sm">{t('blogDevDesc')}</p>
         </div>
       </CardContent>
     </Card>

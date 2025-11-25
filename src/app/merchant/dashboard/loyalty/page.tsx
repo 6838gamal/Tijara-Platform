@@ -17,8 +17,8 @@ export default function LoyaltyPage() {
       <CardContent>
         <div className="flex flex-col items-center justify-center text-center text-muted-foreground h-64">
             <Gem className="h-16 w-16 mb-4 text-primary" />
-            <p className="text-lg">نظام ولاء العملاء قيد التطوير.</p>
-            <p className="text-sm">ستتمكن هنا من إنشاء برنامج نقاط ومكافآت لعملائك الأوفياء.</p>
+            <p className="text-lg">{t('loyaltyDevTitle')}</p>
+            <p className="text-sm">{t('loyaltyDevDesc')}</p>
         </div>
       </CardContent>
     </Card>

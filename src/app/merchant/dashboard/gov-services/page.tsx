@@ -17,8 +17,8 @@ export default function GovServicesPage() {
       <CardContent>
         <div className="flex flex-col items-center justify-center text-center text-muted-foreground h-64">
             <Building className="h-16 w-16 mb-4 text-primary" />
-            <p className="text-lg">الربط مع الخدمات الحكومية قيد التطوير.</p>
-            <p className="text-sm">ستتمكن هنا من ربط متجرك بالخدمات الحكومية مثل الضرائب والتراخيص التجارية.</p>
+            <p className="text-lg">{t('govServicesDevTitle')}</p>
+            <p className="text-sm">{t('govServicesDevDesc')}</p>
         </div>
       </CardContent>
     </Card>
