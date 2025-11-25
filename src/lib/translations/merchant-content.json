@@ -7,5 +7,29 @@
     "contentDevDesc": {
         "en": "Here you will be able to manage the content of your store's pages like 'About Us' and 'Privacy Policy'.",
         "ar": "هنا ستتمكن من إدارة محتوى صفحات متجرك مثل \"من نحن\" و \"سياسة الخصوصية\"."
+    },
+    "contentPageDesc": {
+        "en": "Manage your store's pages, blog, and overall design.",
+        "ar": "أدر صفحات متجرك ومدونته وتصميمه العام."
+    },
+    "pages": {
+        "en": "Informational Pages",
+        "ar": "الصفحات التعريفية"
+    },
+    "pagesDesc": {
+        "en": "Create and edit pages like 'About Us' or 'Contact'.",
+        "ar": "أنشئ وحرر صفحات مثل 'من نحن' أو 'اتصل بنا'."
+    },
+    "blogDesc": {
+        "en": "Write articles to engage your customers.",
+        "ar": "اكتب مقالات لجذب عملائك."
+    },
+    "storeDesignDesc": {
+        "en": "Customize your store's look and feel.",
+        "ar": "خصص مظهر وشكل متجرك."
+    },
+    "contentManageButton": {
+        "en": "Manage",
+        "ar": "إدارة"
     }
 }

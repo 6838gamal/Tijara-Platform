@@ -7,5 +7,41 @@
     "marketingDevDesc": {
         "en": "Here you will find tools to manage your marketing campaigns via email and social media.",
         "ar": "ستجد هنا أدوات لإدارة حملاتك التسويقية عبر البريد الإلكتروني ووسائل التواصل الاجتماعي."
+    },
+    "marketingPageDesc": {
+        "en": "Tools to help you promote your store and reach more customers.",
+        "ar": "أدوات لمساعدتك في الترويج لمتجرك والوصول إلى المزيد من العملاء."
+    },
+    "marketingEmail": {
+        "en": "Email Campaigns",
+        "ar": "حملات البريد الإلكتروني"
+    },
+    "marketingEmailDesc": {
+        "en": "Send newsletters and promotions to your customer list.",
+        "ar": "أرسل نشرات بريدية وعروضًا ترويجية إلى قائمة عملائك."
+    },
+    "marketingSms": {
+        "en": "SMS Marketing",
+        "ar": "التسويق عبر الرسائل القصيرة"
+    },
+    "marketingSmsDesc": {
+        "en": "Send targeted SMS messages for flash sales and updates.",
+        "ar": "أرسل رسائل نصية قصيرة مستهدفة للمبيعات السريعة والتحديثات."
+    },
+    "marketingAnalytics": {
+        "en": "Marketing Analytics",
+        "ar": "تحليلات التسويق"
+    },
+    "marketingAnalyticsDesc": {
+        "en": "Track the performance of your marketing efforts.",
+        "ar": "تتبع أداء جهودك التسويقية."
+    },
+    "marketingCreateCampaign": {
+        "en": "Create Campaign",
+        "ar": "إنشاء حملة"
+    },
+    "marketingViewReports": {
+        "en": "View Reports",
+        "ar": "عرض التقارير"
     }
 }

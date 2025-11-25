@@ -7,5 +7,37 @@
     "govServicesDevDesc": {
         "en": "Here you will be able to link your store with government services such as taxes and business licenses.",
         "ar": "ستتمكن هنا من ربط متجرك بالخدمات الحكومية مثل الضرائب والتراخيص التجارية."
+    },
+    "govServicesPageDesc": {
+        "en": "Quick links to relevant government service portals.",
+        "ar": "روابط سريعة إلى بوابات الخدمات الحكومية ذات الصلة."
+    },
+    "govTaxAuthority": {
+        "en": "Tax and Zakat Authority",
+        "ar": "هيئة الزكاة والضريبة والجمارك"
+    },
+    "govTaxAuthorityDesc": {
+        "en": "Portal for tax filing and Zakat payment.",
+        "ar": "بوابة لتقديم الإقرارات الضريبية ودفع الزكاة."
+    },
+    "govBusinessRegistration": {
+        "en": "Business Registration",
+        "ar": "السجل التجاري"
+    },
+    "govBusinessRegistrationDesc": {
+        "en": "Services for commercial registration and business licenses.",
+        "ar": "خدمات السجل التجاري والتراخيص التجارية."
+    },
+    "govImportExport": {
+        "en": "Import/Export Portal",
+        "ar": "بوابة الاستيراد والتصدير"
+    },
+    "govImportExportDesc": {
+        "en": "Customs and regulations for importing and exporting goods.",
+        "ar": "الجمارك واللوائح الخاصة باستيراد وتصدير البضائع."
+    },
+    "govVisitWebsite": {
+        "en": "Visit Website",
+        "ar": "زيارة الموقع"
     }
 }

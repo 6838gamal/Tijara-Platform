@@ -7,5 +7,25 @@
     "marketplaceDevDesc": {
         "en": "Here you will be able to list your products on the platform's public marketplace to reach new customers.",
         "ar": "ستتمكن هنا من عرض منتجاتك في السوق العام للمنصة والوصول إلى عملاء جدد."
+    },
+    "marketplacePageDesc": {
+        "en": "Track the performance of your products on the public Aoun marketplace.",
+        "ar": "تتبع أداء منتجاتك على سوق عون العام."
+    },
+    "marketplaceImpressions": {
+        "en": "Marketplace Impressions",
+        "ar": "مرات الظهور في السوق"
+    },
+    "marketplaceConversionRate": {
+        "en": "Marketplace Conversion Rate",
+        "ar": "معدل التحويل في السوق"
+    },
+    "marketplacePerformance": {
+        "en": "Product Views on Marketplace",
+        "ar": "مشاهدات المنتج على السوق"
+    },
+    "marketplacePerformanceDesc": {
+        "en": "Number of views your products received in the last few months.",
+        "ar": "عدد المشاهدات التي تلقتها منتجاتك في الأشهر القليلة الماضية."
     }
 }

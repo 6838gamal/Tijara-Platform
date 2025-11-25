@@ -7,5 +7,57 @@
     "appStoreDevDesc": {
         "en": "Here you will be able to browse and purchase additional apps to extend your store's functionality.",
         "ar": "ستتمكن هنا من تصفح وشراء تطبيقات إضافية لتوسيع وظائف متجرك."
+    },
+    "appStorePageDesc": {
+        "en": "Browse and install apps to add new features to your store.",
+        "ar": "تصفح وثبت التطبيقات لإضافة ميزات جديدة إلى متجرك."
+    },
+    "appStoreSearchPlaceholder": {
+        "en": "Search for apps...",
+        "ar": "ابحث عن تطبيقات..."
+    },
+    "appMailCampaigns": {
+        "en": "Mail Campaigns",
+        "ar": "حملات البريد الإلكتروني"
+    },
+    "appMailCampaignsDesc": {
+        "en": "Engage customers with beautiful email campaigns.",
+        "ar": "تفاعل مع العملاء من خلال حملات بريد إلكتروني جميلة."
+    },
+    "appAdvancedAnalytics": {
+        "en": "Advanced Analytics",
+        "ar": "تحليلات متقدمة"
+    },
+    "appAdvancedAnalyticsDesc": {
+        "en": "Get deeper insights into your store's performance.",
+        "ar": "احصل على رؤى أعمق حول أداء متجرك."
+    },
+    "appShippingPro": {
+        "en": "Shipping Pro",
+        "ar": "شحن احترافي"
+    },
+    "appShippingProDesc": {
+        "en": "Advanced shipping rules and carrier integrations.",
+        "ar": "قواعد شحن متقدمة وتكامل مع شركات الشحن."
+    },
+    "appSocialProof": {
+        "en": "Social Proof",
+        "ar": "الدليل الاجتماعي"
+    },
+    "appSocialProofDesc": {
+        "en": "Show recent sales notifications to build trust.",
+        "ar": "اعرض إشعارات المبيعات الحديثة لبناء الثقة."
+    },
+    "free": {
+        "en": "Free",
+        "ar": "مجاني"
+    },
+    "monthlyFee": {
+        "en": "From",
+        "ar": "ابتداءً من"
+    },
+    "appInstallButton": {
+        "en": "Install App",
+        "ar": "تثبيت التطبيق"
     }
 }

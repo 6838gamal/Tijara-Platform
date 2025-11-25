@@ -7,5 +7,61 @@
     "affiliateDevDesc": {
         "en": "Here you will be able to create and manage an affiliate marketing program for your store.",
         "ar": "ستتمكن هنا من إنشاء وإدارة برنامج التسويق بالعمولة الخاص بمتجرك."
+    },
+    "affiliatePageDesc": {
+        "en": "Manage your affiliate program, track performance, and adjust settings.",
+        "ar": "أدر برنامج التسويق بالعمولة الخاص بك، وتتبع الأداء، واضبط الإعدادات."
+    },
+    "affiliateAddButton": {
+        "en": "Add New Affiliate",
+        "ar": "إضافة مسوق جديد"
+    },
+    "affiliatesTotal": {
+        "en": "Total Affiliates",
+        "ar": "إجمالي المسوقين"
+    },
+    "affiliatesTotalClicks": {
+        "en": "Total Clicks",
+        "ar": "إجمالي النقرات"
+    },
+    "affiliatesTotalRevenue": {
+        "en": "Total Revenue",
+        "ar": "إجمالي الإيرادات"
+    },
+    "affiliatesTopPerformers": {
+        "en": "Top Performers",
+        "ar": "الأفضل أداءً"
+    },
+    "affiliatesTopPerformersDesc": {
+        "en": "Your most successful affiliates by revenue.",
+        "ar": "أنجح المسوقين لديك من حيث الإيرادات."
+    },
+    "affiliatesName": {
+        "en": "Affiliate Name",
+        "ar": "اسم المسوق"
+    },
+    "affiliatesClicks": {
+        "en": "Clicks",
+        "ar": "النقرات"
+    },
+    "affiliatesRevenue": {
+        "en": "Revenue",
+        "ar": "الإيرادات"
+    },
+    "affiliateSettings": {
+        "en": "Affiliate Settings",
+        "ar": "إعدادات التسويق بالعمولة"
+    },
+    "affiliateSettingsDesc": {
+        "en": "Configure your global affiliate program settings.",
+        "ar": "قم بتكوين الإعدادات العامة لبرنامج التسويق بالعمولة."
+    },
+    "affiliateCommissionRate": {
+        "en": "Commission Rate",
+        "ar": "نسبة العمولة"
+    },
+    "affiliateReferralLink": {
+        "en": "Base Referral Link",
+        "ar": "رابط الإحالة الأساسي"
     }
 }

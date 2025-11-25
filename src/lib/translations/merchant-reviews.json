@@ -7,5 +7,21 @@
     "reviewsDevDesc": {
         "en": "Here you will be able to review and respond to customer reviews and view questions related to your products.",
         "ar": "ستتمكن هنا من مراجعة تقييمات العملاء والرد عليها وعرض الأسئلة المتعلقة بمنتجاتك."
+    },
+    "reviewsPageDesc": {
+        "en": "Manage customer reviews for your products.",
+        "ar": "أدر تقييمات العملاء لمنتجاتك."
+    },
+    "reviewsProduct": {
+        "en": "Product",
+        "ar": "المنتج"
+    },
+    "reviewsReply": {
+        "en": "Reply",
+        "ar": "رد"
+    },
+    "reviewsDelete": {
+        "en": "Delete",
+        "ar": "حذف"
     }
 }

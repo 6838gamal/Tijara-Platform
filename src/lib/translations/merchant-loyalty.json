@@ -7,5 +7,45 @@
     "loyaltyDevDesc": {
         "en": "Here you will be able to create a points and rewards program for your loyal customers.",
         "ar": "ستتمكن هنا من إنشاء برنامج نقاط ومكافآت لعملائك الأوفياء."
+    },
+    "loyaltyPageDesc": {
+        "en": "Set up a points and rewards program to retain customers.",
+        "ar": "أنشئ برنامج نقاط ومكافآت للاحتفاظ بالعملاء."
+    },
+    "loyaltyProgramStatus": {
+        "en": "Loyalty Program Status",
+        "ar": "حالة برنامج الولاء"
+    },
+    "loyaltyProgramStatusDesc": {
+        "en": "Enable or disable the loyalty program for your store.",
+        "ar": "قم بتمكين أو تعطيل برنامج الولاء لمتجرك."
+    },
+    "loyaltyEarningPoints": {
+        "en": "Earning Points",
+        "ar": "كسب النقاط"
+    },
+    "loyaltyRedeemingPoints": {
+        "en": "Redeeming Points",
+        "ar": "استبدال النقاط"
+    },
+    "loyaltyPointsPerAmount": {
+        "en": "Points per amount spent",
+        "ar": "النقاط لكل مبلغ يتم إنفاقه"
+    },
+    "loyaltyEarn": {
+        "en": "Earn",
+        "ar": "اكسب"
+    },
+    "loyaltyPointForEvery": {
+        "en": "point(s) for every",
+        "ar": "نقطة لكل"
+    },
+    "loyaltyRedemptionRate": {
+        "en": "Redemption Rate",
+        "ar": "معدل الاستبدال"
+    },
+    "loyaltyPointsEquals": {
+        "en": "point(s) =",
+        "ar": "نقطة ="
     }
 }

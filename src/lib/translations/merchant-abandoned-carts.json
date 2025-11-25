@@ -7,5 +7,49 @@
     "abandonedCartsDevDesc": {
         "en": "Here you will be able to view carts that were not completed and send reminder messages to customers.",
         "ar": "ستتمكن هنا من عرض السلات التي لم يكمل أصحابها عملية الشراء وإرسال رسائل تذكير لهم."
+    },
+    "abandonedCartsPageDesc": {
+        "en": "View abandoned checkouts and send recovery emails to customers.",
+        "ar": "اطلع على عمليات الدفع المتروكة وأرسل رسائل بريد إلكتروني لاستعادتها إلى العملاء."
+    },
+    "customer": {
+        "en": "Customer",
+        "ar": "العميل"
+    },
+    "cartDate": {
+        "en": "Date",
+        "ar": "التاريخ"
+    },
+    "cartValue": {
+        "en": "Value",
+        "ar": "القيمة"
+    },
+    "cartItems": {
+        "en": "Items",
+        "ar": "العناصر"
+    },
+    "cartRecoveryStatus": {
+        "en": "Recovery Status",
+        "ar": "حالة الاسترداد"
+    },
+    "actions": {
+        "en": "Actions",
+        "ar": "الإجراءات"
+    },
+    "cartStatusNotSent": {
+        "en": "Not Sent",
+        "ar": "لم يتم الإرسال"
+    },
+    "cartStatusSent": {
+        "en": "Reminder Sent",
+        "ar": "تم إرسال تذكير"
+    },
+    "cartStatusRecovered": {
+        "en": "Recovered",
+        "ar": "تم الاسترداد"
+    },
+    "cartSendReminder": {
+        "en": "Send Reminder",
+        "ar": "إرسال تذكير"
     }
 }

@@ -7,5 +7,37 @@
     "offersDevDesc": {
         "en": "Here you will be able to create offers like 'Buy One, Get One Free' or discounts on product bundles.",
         "ar": "ستتمكن هنا من إنشاء عروض مثل \"اشترِ واحدًا واحصل على الآخر مجانًا\" أو خصومات على مجموعات المنتجات."
+    },
+    "offersPageDesc": {
+        "en": "Create and manage special offers for your store.",
+        "ar": "أنشئ وأدر العروض الخاصة لمتجرك."
+    },
+    "offersNewOffer": {
+        "en": "New Offer",
+        "ar": "عرض جديد"
+    },
+    "offerTitle": {
+        "en": "Offer Title",
+        "ar": "عنوان العرض"
+    },
+    "offerType": {
+        "en": "Type",
+        "ar": "النوع"
+    },
+    "offerStatusExpired": {
+        "en": "Expired",
+        "ar": "منتهي الصلاحية"
+    },
+    "offerTypePercentage": {
+        "en": "Percentage Discount",
+        "ar": "خصم نسبة مئوية"
+    },
+    "offerTypeBogo": {
+        "en": "Buy X Get Y",
+        "ar": "اشتر س واحصل على ص"
+    },
+    "offerTypeFreeShipping": {
+        "en": "Free Shipping",
+        "ar": "شحن مجاني"
     }
 }

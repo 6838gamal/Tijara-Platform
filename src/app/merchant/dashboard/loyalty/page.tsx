@@ -1,26 +1,74 @@
 
 "use client";
 
-import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle, CardContent, CardDescription, CardFooter } from "@/components/ui/card";
 import { useTranslation } from "@/hooks/use-translation";
-import { Gem } from "lucide-react";
+import { Gem, Settings, Gift, CircleDollarSign } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
 
 export default function LoyaltyPage() {
   const { t } = useTranslation();
 
   return (
-    <Card>
-      <CardHeader>
-        <CardTitle>{t('loyaltyProgram')}</CardTitle>
-        <CardDescription>{t('contentComingSoon')}</CardDescription>
-      </CardHeader>
-      <CardContent>
-        <div className="flex flex-col items-center justify-center text-center text-muted-foreground h-64">
-            <Gem className="h-16 w-16 mb-4 text-primary" />
-            <p className="text-lg">{t('loyaltyDevTitle')}</p>
-            <p className="text-sm">{t('loyaltyDevDesc')}</p>
+    <div className="space-y-6">
+        <div>
+            <h1 className="text-2xl font-bold tracking-tight">{t('loyaltyProgram')}</h1>
+            <p className="text-muted-foreground">{t('loyaltyPageDesc')}</p>
         </div>
-      </CardContent>
-    </Card>
+
+        <Card>
+            <CardHeader className="flex flex-row items-center justify-between">
+                <CardTitle>{t('loyaltyProgramStatus')}</CardTitle>
+                <Switch defaultChecked={true} />
+            </CardHeader>
+            <CardContent>
+                <p className="text-sm text-muted-foreground">{t('loyaltyProgramStatusDesc')}</p>
+            </CardContent>
+        </Card>
+
+        <div className="grid gap-6 md:grid-cols-2">
+            <Card>
+                <CardHeader>
+                    <CardTitle className="flex items-center gap-2"><CircleDollarSign className="h-5 w-5"/>{t('loyaltyEarningPoints')}</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                    <div className="space-y-2">
+                        <Label>{t('loyaltyPointsPerAmount')}</Label>
+                        <div className="flex items-center gap-2">
+                            <span>{t('loyaltyEarn')}</span>
+                            <Input type="number" defaultValue="1" className="w-16 text-center" />
+                            <span>{t('loyaltyPointForEvery')}</span>
+                            <Input type="number" defaultValue="1" className="w-16 text-center" />
+                            <span>$</span>
+                        </div>
+                    </div>
+                </CardContent>
+            </Card>
+
+            <Card>
+                <CardHeader>
+                    <CardTitle className="flex items-center gap-2"><Gift className="h-5 w-5"/>{t('loyaltyRedeemingPoints')}</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                    <div className="space-y-2">
+                        <Label>{t('loyaltyRedemptionRate')}</Label>
+                        <div className="flex items-center gap-2">
+                            <Input type="number" defaultValue="100" className="w-16 text-center" />
+                            <span>{t('loyaltyPointsEquals')}</span>
+                            <Input type="number" defaultValue="1" className="w-16 text-center" />
+                            <span>$</span>
+                        </div>
+                    </div>
+                </CardContent>
+            </Card>
+        </div>
+        
+        <div className="flex justify-end">
+            <Button>{t('saveChangesButton')}</Button>
+        </div>
+    </div>
   );
 }

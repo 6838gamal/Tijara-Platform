@@ -7,5 +7,17 @@
     "installedAppsDevDesc": {
         "en": "Here you will be able to see all the apps you have installed in your store and manage their settings.",
         "ar": "ستتمكن هنا من رؤية جميع التطبيقات التي قمت بتثبيتها على متجرك وإدارة إعداداتها."
+    },
+    "installedAppsPageDesc": {
+        "en": "Manage the apps you have added to your store.",
+        "ar": "أدر التطبيقات التي أضفتها إلى متجرك."
+    },
+    "status": {
+        "en": "Status",
+        "ar": "الحالة"
+    },
+    "appUninstallButton": {
+        "en": "Uninstall",
+        "ar": "إلغاء التثبيت"
     }
 }

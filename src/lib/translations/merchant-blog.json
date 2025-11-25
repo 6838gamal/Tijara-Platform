@@ -7,5 +7,25 @@
     "blogDevDesc": {
         "en": "Here you will be able to write and publish articles to increase customer engagement and improve SEO.",
         "ar": "هنا ستتمكن من كتابة ونشر مقالات لزيادة تفاعل العملاء وتحسين محركات البحث."
+    },
+    "blogPageDesc": {
+        "en": "Create and manage your blog posts here.",
+        "ar": "أنشئ وأدر مقالات مدونتك من هنا."
+    },
+    "blogNewPost": {
+        "en": "New Post",
+        "ar": "مقالة جديدة"
+    },
+    "blogPostTitle": {
+        "en": "Title",
+        "ar": "العنوان"
+    },
+    "blogPostAuthor": {
+        "en": "Author",
+        "ar": "الكاتب"
+    },
+    "blogPostDate": {
+        "en": "Date",
+        "ar": "التاريخ"
     }
 }
