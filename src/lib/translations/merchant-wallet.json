@@ -1,0 +1,55 @@
+
+{
+    "currentBalance": {
+        "en": "Current Balance",
+        "ar": "الرصيد الحالي"
+    },
+    "currentBalanceDesc": {
+        "en": "Balance available for withdrawal or use on the platform.",
+        "ar": "الرصيد المتاح للسحب أو لاستخدامه في خدمات المنصة."
+    },
+    "requestWithdrawal": {
+        "en": "Request Withdrawal",
+        "ar": "طلب سحب الرصيد"
+    },
+    "transactionHistory": {
+        "en": "Transaction History",
+        "ar": "سجل المعاملات"
+    },
+    "transactionHistoryDesc": {
+        "en": "A log of the latest transactions in your wallet.",
+        "ar": "عرض لآخر المعاملات في محفظتك."
+    },
+    "transactionType": {
+        "en": "Type",
+        "ar": "النوع"
+    },
+    "transactionAmount": {
+        "en": "Amount",
+        "ar": "المبلغ"
+    },
+    "deposit": {
+        "en": "Deposit",
+        "ar": "إيداع"
+    },
+    "withdrawal": {
+        "en": "Withdrawal",
+        "ar": "سحب"
+    },
+    "fee": {
+        "en": "Fee",
+        "ar": "رسوم"
+    },
+    "depositFromOrder": {
+        "en": "Deposit from sales of order",
+        "ar": "إيداع من مبيعات الطلب"
+    },
+    "withdrawalToBank": {
+        "en": "Withdrawal to bank account",
+        "ar": "سحب إلى حساب بنكي"
+    },
+    "feeForPremium": {
+        "en": "Premium package subscription fee",
+        "ar": "رسوم اشتراك الباقة المميزة"
+    }
+}

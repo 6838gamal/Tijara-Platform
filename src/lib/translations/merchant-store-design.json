@@ -1,0 +1,51 @@
+
+{
+    "colorCustomization": {
+        "en": "Color Customization",
+        "ar": "تخصيص الألوان"
+    },
+    "primaryColor": {
+        "en": "Primary Color",
+        "ar": "اللون الأساسي"
+    },
+    "backgroundColor": {
+        "en": "Background Color",
+        "ar": "لون الخلفية"
+    },
+    "fontCustomization": {
+        "en": "Font Customization",
+        "ar": "تخصيص الخطوط"
+    },
+    "storeFont": {
+        "en": "Store Font",
+        "ar": "خط المتجر"
+    },
+    "selectFontPlaceholder": {
+        "en": "Select a font",
+        "ar": "اختر خطًا"
+    },
+    "livePreview": {
+        "en": "Live Preview",
+        "ar": "معاينة حية"
+    },
+    "myStore": {
+        "en": "My Store",
+        "ar": "متجري"
+    },
+    "welcomeToMyStore": {
+        "en": "Welcome to My Store",
+        "ar": "مرحبًا في متجري"
+    },
+    "previewSubtitle": {
+        "en": "Here you will find the best products at the best prices.",
+        "ar": "هنا ستجد أفضل المنتجات بأفضل الأسعار."
+    },
+    "designSavedToastTitle": {
+        "en": "Design Saved",
+        "ar": "تم حفظ التصميم"
+    },
+    "designSavedToastDesc": {
+        "en": "Your design changes have been applied to your storefront.",
+        "ar": "تم تطبيق تغييرات التصميم على واجهة متجرك."
+    }
+}

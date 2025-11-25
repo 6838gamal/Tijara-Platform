@@ -1,0 +1,75 @@
+
+{
+    "storePackageDesc": {
+        "en": "Choose the plan that suits your business size. You can upgrade or downgrade at any time.",
+        "ar": "اختر الخطة التي تناسب حجم أعمالك. يمكنك الترقية أو التخفيض في أي وقت."
+    },
+    "basicPlan": {
+        "en": "Basic",
+        "ar": "الأساسية"
+    },
+    "premiumPlan": {
+        "en": "Premium",
+        "ar": "المميزة"
+    },
+    "businessPlan": {
+        "en": "Business",
+        "ar": "الأعمال"
+    },
+    "monthly": {
+        "en": "monthly",
+        "ar": "شهريًا"
+    },
+    "planFeature50Products": {
+        "en": "50 Products",
+        "ar": "50 منتج"
+    },
+    "planFeatureBasicAnalytics": {
+        "en": "Basic Analytics",
+        "ar": "تحليلات أساسية"
+    },
+    "planFeatureEmailSupport": {
+        "en": "Email Support",
+        "ar": "دعم عبر البريد الإلكتروني"
+    },
+    "planFeatureUnlimitedProducts": {
+        "en": "Unlimited Products",
+        "ar": "منتجات غير محدودة"
+    },
+    "planFeatureAdvancedAnalytics": {
+        "en": "Advanced Analytics",
+        "ar": "تحليلات متقدمة"
+    },
+    "planFeatureAiSupport": {
+        "en": "AI-powered Support",
+        "ar": "دعم ذكي بالذكاء الاصطناعي"
+    },
+    "planFeatureMarketingTools": {
+        "en": "Integrated Marketing Tools",
+        "ar": "أدوات تسويق متكاملة"
+    },
+    "planFeatureAllPremium": {
+        "en": "All features from Premium",
+        "ar": "كل ميزات الباقة المميزة"
+    },
+    "planFeatureDedicatedManager": {
+        "en": "Dedicated Account Manager",
+        "ar": "مدير حساب مخصص"
+    },
+    "planFeatureApiAccess": {
+        "en": "API Access",
+        "ar": "واجهة برمجة تطبيقات (API)"
+    },
+    "planFeature247Support": {
+        "en": "24/7 Instant Support",
+        "ar": "دعم فوري على مدار الساعة"
+    },
+    "currentPlan": {
+        "en": "Your Current Plan",
+        "ar": "باقتك الحالية"
+    },
+    "upgradeToPlan": {
+        "en": "Upgrade to this Plan",
+        "ar": "الترقية لهذه الباقة"
+    }
+}

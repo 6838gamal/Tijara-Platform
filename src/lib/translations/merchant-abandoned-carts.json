@@ -1,0 +1,11 @@
+
+{
+    "abandonedCartsDevTitle": {
+        "en": "Abandoned Cart Recovery is Under Development",
+        "ar": "ميزة استعادة السلات المتروكة قيد التطوير"
+    },
+    "abandonedCartsDevDesc": {
+        "en": "Here you will be able to view carts that were not completed and send reminder messages to customers.",
+        "ar": "ستتمكن هنا من عرض السلات التي لم يكمل أصحابها عملية الشراء وإرسال رسائل تذكير لهم."
+    }
+}

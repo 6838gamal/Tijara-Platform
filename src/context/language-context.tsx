@@ -1,3 +1,4 @@
+
 "use client";
 
 import React, { createContext, useState, useContext, ReactNode, useCallback, useEffect } from 'react';
@@ -16,6 +17,22 @@ import merchantAiServicesTranslations from '@/lib/translations/merchant-ai-servi
 import merchantSettingsTranslations from '@/lib/translations/merchant-settings.json';
 import merchantPaymentsTranslations from '@/lib/translations/merchant-payments.json';
 import storeTranslations from '@/lib/translations/store.json';
+import merchantWalletTranslations from '@/lib/translations/merchant-wallet.json';
+import merchantStoreDesignTranslations from '@/lib/translations/merchant-store-design.json';
+import merchantStorePackageTranslations from '@/lib/translations/merchant-store-package.json';
+import merchantContentTranslations from '@/lib/translations/merchant-content.json';
+import merchantMarketplaceTranslations from '@/lib/translations/merchant-marketplace.json';
+import merchantAffiliateTranslations from '@/lib/translations/merchant-affiliate.json';
+import merchantLoyaltyTranslations from '@/lib/translations/merchant-loyalty.json';
+import merchantOffersTranslations from '@/lib/translations/merchant-offers.json';
+import merchantMarketingToolsTranslations from '@/lib/translations/merchant-marketing-tools.json';
+import merchantAbandonedCartsTranslations from '@/lib/translations/merchant-abandoned-carts.json';
+import merchantReviewsTranslations from '@/lib/translations/merchant-reviews.json';
+import merchantPagesTranslations from '@/lib/translations/merchant-pages.json';
+import merchantBlogTranslations from '@/lib/translations/merchant-blog.json';
+import merchantGovServicesTranslations from '@/lib/translations/merchant-gov-services.json';
+import merchantAppStoreTranslations from '@/lib/translations/merchant-app-store.json';
+import merchantInstalledAppsTranslations from '@/lib/translations/merchant-installed-apps.json';
 
 // Combine all translations into one object
 const translations = {
@@ -34,6 +51,22 @@ const translations = {
   ...merchantSettingsTranslations,
   ...merchantPaymentsTranslations,
   ...storeTranslations,
+  ...merchantWalletTranslations,
+  ...merchantStoreDesignTranslations,
+  ...merchantStorePackageTranslations,
+  ...merchantContentTranslations,
+  ...merchantMarketplaceTranslations,
+  ...merchantAffiliateTranslations,
+  ...merchantLoyaltyTranslations,
+  ...merchantOffersTranslations,
+  ...merchantMarketingToolsTranslations,
+  ...merchantAbandonedCartsTranslations,
+  ...merchantReviewsTranslations,
+  ...merchantPagesTranslations,
+  ...merchantBlogTranslations,
+  ...merchantGovServicesTranslations,
+  ...merchantAppStoreTranslations,
+  ...merchantInstalledAppsTranslations,
 };
 
 type Language = 'en' | 'ar';
