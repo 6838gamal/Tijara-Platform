@@ -1,18 +1,15 @@
 
 "use client";
 
-import { Card, CardHeader, CardTitle, CardContent, CardDescription, CardFooter } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card";
 import { useTranslation } from "@/hooks/use-translation";
-import { BarChart, Percent, Eye } from "lucide-react";
+import { Eye, Percent } from "lucide-react";
 import {
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-  Bar,
-  BarChart as RechartsBarChart,
-  XAxis,
-  YAxis
 } from "@/components/ui/chart";
+import { Bar, BarChart as RechartsBarChart, XAxis, YAxis } from "recharts";
 
 const chartData = [
   { month: "يناير", views: 1860 },
@@ -65,7 +62,7 @@ export default function MarketplacePage() {
             </CardHeader>
             <CardContent>
                 <ChartContainer config={chartConfig} className="min-h-[300px] w-full">
-                    <RechartsBarChart data={chartData}>
+                    <RechartsBarChart data={chartData} accessibilityLayer>
                         <XAxis
                             dataKey="month"
                             tickLine={false}
