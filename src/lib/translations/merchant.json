@@ -63,5 +63,69 @@
     "paginationNext": {
         "en": "Next",
         "ar": "التالي"
+    },
+    "content": {
+        "en": "Content",
+        "ar": "مضمون"
+    },
+    "marketplace": {
+        "en": "Marketplace",
+        "ar": "منصة السوق"
+    },
+    "affiliateMarketing": {
+        "en": "Affiliate Marketing",
+        "ar": "التسويق بالعمولة"
+    },
+    "loyaltyProgram": {
+        "en": "Loyalty Program",
+        "ar": "نظام الولاء"
+    },
+    "specialOffers": {
+        "en": "Special Offers",
+        "ar": "العروض الخاصة"
+    },
+    "marketingTools": {
+        "en": "Marketing Tools",
+        "ar": "أدوات التسويق"
+    },
+    "abandonedCarts": {
+        "en": "Abandoned Carts",
+        "ar": "السلات المتروكة"
+    },
+    "questionsAndReviews": {
+        "en": "Questions & Reviews",
+        "ar": "الأسئلة والتقييمات"
+    },
+    "informationalPages": {
+        "en": "Informational Pages",
+        "ar": "الصفحات التعريفية"
+    },
+    "blog": {
+        "en": "Blog",
+        "ar": "المدونة"
+    },
+    "governmentServices": {
+        "en": "Government Services",
+        "ar": "الخدمات الحكومية"
+    },
+    "storeDesign": {
+        "en": "Store Design",
+        "ar": "تصميم المتجر"
+    },
+    "walletAndSavings": {
+        "en": "Wallet & Savings",
+        "ar": "المحفظة والتوفير"
+    },
+    "storePackage": {
+        "en": "Store Package",
+        "ar": "باقة المتجر"
+    },
+    "visitAppStore": {
+        "en": "Visit App Store",
+        "ar": "زيارة متجر التطبيقات"
+    },
+    "installedApps": {
+        "en": "Installed Apps",
+        "ar": "التطبيقات المثبتة"
     }
 }
