@@ -1,3 +1,4 @@
+
 {
     "productsPageDescription": {
         "en": "Manage your store products here.",
@@ -147,6 +148,10 @@
         "en": "SKU (Stock Keeping Unit)",
         "ar": "رمز التخزين (SKU)"
     },
+    "productLinkLabel": {
+        "en": "Product Link",
+        "ar": "رابط المنتج"
+    },
     "productMaxQuantityLabel": {
         "en": "Max quantity per customer",
         "ar": "أقصى كمية لكل عميل"
@@ -172,3 +177,5 @@
         "ar": "مثال: الحجم: صغير، متوسط، كبير"
     }
 }
+
+    

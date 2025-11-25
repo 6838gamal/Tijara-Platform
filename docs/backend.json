@@ -1,3 +1,4 @@
+
 {
   "entities": {
     "User": {
@@ -141,11 +142,22 @@
       "properties": {
         "name": {"type": "string"},
         "description": {"type": "string"},
+        "image": {"type": "string", "description": "Can be a URL to an image or a hex color code."},
         "price": {"type": "number"},
+        "cost": {"type": "number"},
+        "discountPrice": {"type": "number"},
+        "discountEndDate": {"type": "string", "format": "date-time"},
         "stock": {"type": "number"},
+        "sku": {"type": "string"},
+        "productLink": {"type": "string", "format": "uri"},
+        "weight": {"type": "number"},
+        "requiresShipping": {"type": "boolean"},
+        "maxQuantityPerCustomer": {"type": "number"},
         "category": {"type": "string"},
         "brand": {"type": "string"},
-        "image": {"type": "string", "format": "uri"}
+        "options": {"type": "string"},
+        "status": {"type": "string", "enum": ["Published", "Draft"]},
+        "isFeatured": {"type": "boolean", "description": "Whether the product is featured on the homepage."}
       }
     },
     "Category": {
@@ -275,3 +287,5 @@
     }
   }
 }
+
+    

@@ -1,4 +1,5 @@
 
+
 "use client";
 
 import React, { useState, useMemo } from "react";
@@ -223,6 +224,7 @@ export default function ProductsPage() {
         discountEndDate: formData.get('discountEndDate') as string,
         stock: parseInt(formData.get('stock') as string),
         sku: formData.get('sku') as string,
+        productLink: formData.get('productLink') as string,
         weight: parseFloat(formData.get('weight') as string) || undefined,
         requiresShipping: (formData.get('requiresShipping') === 'on'),
         maxQuantityPerCustomer: parseInt(formData.get('maxQuantityPerCustomer') as string) || undefined,
@@ -473,6 +475,10 @@ export default function ProductsPage() {
                     <Input id="sku" name="sku" defaultValue={currentProduct?.sku} placeholder="e.g., TSHIRT-RED-L" className="col-span-3"/>
                  </div>
                  <div className="grid grid-cols-4 items-center gap-4">
+                    <Label htmlFor="productLink" className="text-right rtl:text-left">{t('productLinkLabel')}</Label>
+                    <Input id="productLink" name="productLink" type="url" defaultValue={currentProduct?.productLink} placeholder="https://example.com/product-page" className="col-span-3"/>
+                 </div>
+                 <div className="grid grid-cols-4 items-center gap-4">
                     <Label htmlFor="category" className="text-right rtl:text-left">{t('productCategoryLabel')}</Label>
                     <Select name="category" defaultValue={currentProduct?.category} disabled={!canAddProduct && !currentProduct} required>
                         <SelectTrigger id="category" className="col-span-3"><SelectValue placeholder={t('productCategoryPlaceholder')} /></SelectTrigger>
@@ -522,5 +528,7 @@ export default function ProductsPage() {
     </>
   );
 }
+
+    
 
     

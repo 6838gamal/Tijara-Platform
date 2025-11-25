@@ -22,6 +22,7 @@ export type ProductData = {
   discountPrice?: number;
   discountEndDate?: string;
   sku?: string;
+  productLink?: string;
   weight?: number;
   requiresShipping?: boolean;
   maxQuantityPerCustomer?: number;
@@ -62,3 +63,5 @@ export const deleteProduct = async (
   const productDoc = doc(db, 'stores', storeId, 'products', productId);
   await deleteDoc(productDoc);
 };
+
+    
