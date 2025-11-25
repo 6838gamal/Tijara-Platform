@@ -16,8 +16,9 @@ export default function ReviewsPage() {
       </CardHeader>
       <CardContent>
         <div className="flex flex-col items-center justify-center text-center text-muted-foreground h-64">
-            <MessageSquareQuote className="h-16 w-16 mb-4" />
-            <p>إدارة الأسئلة والتقييمات قيد التطوير.</p>
+            <MessageSquareQuote className="h-16 w-16 mb-4 text-primary" />
+            <p className="text-lg">إدارة الأسئلة والتقييمات قيد التطوير.</p>
+            <p className="text-sm">ستتمكن هنا من مراجعة تقييمات العملاء والرد عليها وعرض الأسئلة المتعلقة بمنتجاتك.</p>
         </div>
       </CardContent>
     </Card>

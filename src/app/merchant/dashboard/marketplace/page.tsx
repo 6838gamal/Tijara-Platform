@@ -16,8 +16,9 @@ export default function MarketplacePage() {
       </CardHeader>
       <CardContent>
         <div className="flex flex-col items-center justify-center text-center text-muted-foreground h-64">
-            <LayoutGrid className="h-16 w-16 mb-4" />
-            <p>منصة السوق قيد التطوير.</p>
+            <LayoutGrid className="h-16 w-16 mb-4 text-primary" />
+            <p className="text-lg">منصة السوق قيد التطوير.</p>
+            <p className="text-sm">ستتمكن هنا من عرض منتجاتك في السوق العام للمنصة والوصول إلى عملاء جدد.</p>
         </div>
       </CardContent>
     </Card>

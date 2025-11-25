@@ -16,8 +16,9 @@ export default function MarketingToolsPage() {
       </CardHeader>
       <CardContent>
          <div className="flex flex-col items-center justify-center text-center text-muted-foreground h-64">
-            <Megaphone className="h-16 w-16 mb-4" />
-            <p>أدوات التسويق قيد التطوير.</p>
+            <Megaphone className="h-16 w-16 mb-4 text-primary" />
+            <p className="text-lg">أدوات التسويق قيد التطوير.</p>
+            <p className="text-sm">ستجد هنا أدوات لإدارة حملاتك التسويقية عبر البريد الإلكتروني ووسائل التواصل الاجتماعي.</p>
         </div>
       </CardContent>
     </Card>
